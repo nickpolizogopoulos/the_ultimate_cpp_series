@@ -8,5 +8,5 @@ add_executable(
         main.cpp
         part-1-fundamentals/1-the-basics/3_sales_tax_calculator.cpp
         part-1-fundamentals/1-the-basics/1_swap_variables.cpp
-        part-1-fundamentals/1-the-basics/calculate_expression.cpp
+        part-1-fundamentals/1-the-basics/2_calculate_expression.cpp
 )
