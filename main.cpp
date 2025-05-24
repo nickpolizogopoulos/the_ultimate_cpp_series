@@ -6,6 +6,7 @@
         void swapVariables();
         void calculateExpression();
         void calculateUserAge();
+        void fahrenheitToCelsius();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -16,6 +17,7 @@ int main() {
             // runSalesTaxCalculator();
             // calculateExpression();
             // calculateUserAge();
+            fahrenheitToCelsius();
 
     return 0;
 }

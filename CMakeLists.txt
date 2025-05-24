@@ -10,4 +10,5 @@ add_executable(
         part-1-fundamentals/1-the-basics/1_swap_variables.cpp
         part-1-fundamentals/1-the-basics/2_calculate_expression.cpp
         part-1-fundamentals/1-the-basics/4_calculate_user_age.cpp
+        part-1-fundamentals/1-the-basics/5_fahrenheit_to_celsius.cpp
 )
