@@ -7,6 +7,7 @@
         void calculateExpression();
         void calculateUserAge();
         void fahrenheitToCelsius();
+        void areaOfACircle();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -17,7 +18,8 @@ int main() {
             // runSalesTaxCalculator();
             // calculateExpression();
             // calculateUserAge();
-            fahrenheitToCelsius();
+            // fahrenheitToCelsius();
+            areaOfACircle();
 
     return 0;
 }

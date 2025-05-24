@@ -1,7 +1,6 @@
 //
 // Created by Nick Polizogopoulos on 24/5/25.
 //
-#include <iomanip>
 #include <iostream>
 
 // Write a program to convert a temperature from fahrenheit to celsius.

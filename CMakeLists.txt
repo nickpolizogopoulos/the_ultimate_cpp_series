@@ -11,4 +11,5 @@ add_executable(
         part-1-fundamentals/1-the-basics/2_calculate_expression.cpp
         part-1-fundamentals/1-the-basics/4_calculate_user_age.cpp
         part-1-fundamentals/1-the-basics/5_fahrenheit_to_celsius.cpp
+        part-1-fundamentals/1-the-basics/6_area_of_a_circle.cpp
 )
