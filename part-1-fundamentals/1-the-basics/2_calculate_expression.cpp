@@ -8,7 +8,7 @@
 // z must equal 1.33333
 
 void calculateExpression() {
-    std::cout << "Exercise: " << "Calculate Expression" << std::endl << "=======================================" << std::endl;
+    std::cout << "Exercise: Calculate Expression" << std::endl << "=======================================" << std::endl;
 
     const double x = 10;
     const double y = 5;

@@ -9,7 +9,7 @@
 
 void calculateUserAge() {
 
-    std::cout << "Exercise: " << "Calculate User's Age" << std::endl << "=======================================" << std::endl;
+    std::cout << "Exercise: Calculate User's Age" << std::endl << "=======================================" << std::endl;
 
     int birthYear;
     std::cout << "Enter your birth year: ";

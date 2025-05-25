@@ -10,7 +10,7 @@ using namespace std;
 
 void runSalesTaxCalculator() {
 
-    cout << "Exercise: " << "Sales Tax Calculator" << endl << "=======================================" << endl;
+    cout << "Exercise: Sales Tax Calculator" << endl << "=======================================" << endl;
 
     double sales = 95000;
     cout << "Sales: $" << sales << endl << "------------------" << endl;

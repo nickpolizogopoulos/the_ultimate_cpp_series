@@ -15,7 +15,7 @@ Text labels are left aligned, numbers are right aligned.
 
 void formattedOutputTable() {
 
-    std::cout << "Exercise: " << "Formatting the courses table" << std::endl << "=======================================" << std::endl;
+    std::cout << "Exercise: Formatting the courses table" << std::endl << "=======================================" << std::endl;
 
     std::cout
         << std::left << std::setw(15) << "Course" << std::setw(10) << "Students" << std::endl

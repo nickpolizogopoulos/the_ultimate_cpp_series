@@ -10,7 +10,7 @@
 
 void areaOfACircle() {
 
-    std::cout << "Exercise: " << "Area of a Circle" << std::endl << "=======================================" << std::endl;
+    std::cout << "Exercise: Area of a Circle" << std::endl << "=======================================" << std::endl;
 
     std::cout << "Enter radius: ";
     double radius;

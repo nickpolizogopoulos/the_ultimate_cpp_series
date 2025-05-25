@@ -7,7 +7,7 @@
 
 void fahrenheitToCelsius() {
 
-    std::cout << "Exercise: " << "Fahrenheit to Celsius" << std::endl << "=======================================" << std::endl;
+    std::cout << "Exercise: Fahrenheit to Celsius" << std::endl << "=======================================" << std::endl;
 
     std::cout << "Enter Fahrenheit: ";
     double fahrenheit;

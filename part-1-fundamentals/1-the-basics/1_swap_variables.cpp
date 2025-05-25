@@ -7,7 +7,7 @@
 // write code to swap their values so that after execution, x holds 20 and y holds 10.
 
 void swapVariables() {
-    std::cout << "Exercise: " << "Swap Variables" << std::endl << "=======================================" << std::endl;
+    std::cout << "Exercise: Swap Variables" << std::endl << "=======================================" << std::endl;
     int x = 10;
     int y = 20;
 

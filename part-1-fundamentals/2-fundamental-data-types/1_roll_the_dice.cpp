@@ -13,7 +13,7 @@ To limit the range of the random number, we use this formula:
 */
 
 void rollTheDice() {
-    std::cout << "Exercise: " << "Roll the Dice" << std::endl << "=======================================" << std::endl;
+    std::cout << "Exercise: Roll the Dice" << std::endl << "=======================================" << std::endl;
 
     const short minDieValue = 1;
     const short maxDieValue = 6;

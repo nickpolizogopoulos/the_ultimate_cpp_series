@@ -26,7 +26,7 @@ int main() {
             // areaOfACircle();
         //2. Fundamental Data Types
             // rollTheDice();
-            formattedOutputTable();
+            // formattedOutputTable();
 
     playground();
     return 0;
