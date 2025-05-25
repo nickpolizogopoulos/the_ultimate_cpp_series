@@ -11,6 +11,7 @@ void playground();
         void areaOfACircle();
     //2. Fundamental Data Types
         void rollTheDice();
+        void formattedOutputTable();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -24,7 +25,8 @@ int main() {
             // fahrenheitToCelsius();
             // areaOfACircle();
         //2. Fundamental Data Types
-            rollTheDice();
+            // rollTheDice();
+            formattedOutputTable();
 
     playground();
     return 0;

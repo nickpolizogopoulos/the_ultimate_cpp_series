@@ -6,12 +6,16 @@ set(CMAKE_CXX_STANDARD 23)
 add_executable(
         the_ultimate_cpp_series
         main.cpp
-        part-1-fundamentals/1-the-basics/3_sales_tax_calculator.cpp
-        part-1-fundamentals/1-the-basics/1_swap_variables.cpp
-        part-1-fundamentals/1-the-basics/2_calculate_expression.cpp
-        part-1-fundamentals/1-the-basics/4_calculate_user_age.cpp
-        part-1-fundamentals/1-the-basics/5_fahrenheit_to_celsius.cpp
-        part-1-fundamentals/1-the-basics/6_area_of_a_circle.cpp
         playground.cpp
-        part-1-fundamentals/2-fundamental-data-types/1_roll_the_dice.cpp
+        # Part 1: Fundamentals
+            # 1. The Basics
+                part-1-fundamentals/1-the-basics/1_swap_variables.cpp
+                part-1-fundamentals/1-the-basics/2_calculate_expression.cpp
+                part-1-fundamentals/1-the-basics/3_sales_tax_calculator.cpp
+                part-1-fundamentals/1-the-basics/4_calculate_user_age.cpp
+                part-1-fundamentals/1-the-basics/5_fahrenheit_to_celsius.cpp
+                part-1-fundamentals/1-the-basics/6_area_of_a_circle.cpp
+            # 2. Fundamental Data Types
+                part-1-fundamentals/2-fundamental-data-types/1_roll_the_dice.cpp
+                part-1-fundamentals/2-fundamental-data-types/2_formatted_output_table.cpp
 )
