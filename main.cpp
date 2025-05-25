@@ -1,5 +1,6 @@
 #include <iostream>
 
+void playground();
 //Part 1: Fundamentals
     //1. The Basics
         void runSalesTaxCalculator();
@@ -8,6 +9,8 @@
         void calculateUserAge();
         void fahrenheitToCelsius();
         void areaOfACircle();
+    //2. Fundamental Data Types
+        void rollTheDice();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -19,7 +22,10 @@ int main() {
             // calculateExpression();
             // calculateUserAge();
             // fahrenheitToCelsius();
-            areaOfACircle();
+            // areaOfACircle();
+        //2. Fundamental Data Types
+            rollTheDice();
 
+    playground();
     return 0;
 }

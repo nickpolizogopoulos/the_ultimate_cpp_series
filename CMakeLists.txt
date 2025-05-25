@@ -12,4 +12,6 @@ add_executable(
         part-1-fundamentals/1-the-basics/4_calculate_user_age.cpp
         part-1-fundamentals/1-the-basics/5_fahrenheit_to_celsius.cpp
         part-1-fundamentals/1-the-basics/6_area_of_a_circle.cpp
+        playground.cpp
+        part-1-fundamentals/2-fundamental-data-types/1_roll_the_dice.cpp
 )
