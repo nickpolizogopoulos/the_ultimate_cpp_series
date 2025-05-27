@@ -14,6 +14,7 @@ void playground();
         void formattedOutputTable();
         void addressInputUsingGetline();
         void storingAndRetrievingDataFromAnArray();
+        void typeConversion();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -30,7 +31,8 @@ int main() {
             // rollTheDice();
             // formattedOutputTable();
             // addressInputUsingGetline();
-            storingAndRetrievingDataFromAnArray();
+            // storingAndRetrievingDataFromAnArray();
+            typeConversion();
 
     playground();
     return 0;
