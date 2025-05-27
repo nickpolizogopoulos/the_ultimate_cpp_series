@@ -12,6 +12,7 @@ void playground();
     //2. Fundamental Data Types
         void rollTheDice();
         void formattedOutputTable();
+        void addressInputUsingGetline();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -27,6 +28,7 @@ int main() {
         //2. Fundamental Data Types
             // rollTheDice();
             // formattedOutputTable();
+            addressInputUsingGetline();
 
     playground();
     return 0;
