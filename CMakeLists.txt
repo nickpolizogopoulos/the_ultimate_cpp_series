@@ -19,4 +19,5 @@ add_executable(
                 part-1-fundamentals/2-fundamental-data-types/1_roll_the_dice.cpp
                 part-1-fundamentals/2-fundamental-data-types/2_formatted_output_table.cpp
         part-1-fundamentals/2-fundamental-data-types/3_address_input_using_getline.cpp
+        part-1-fundamentals/2-fundamental-data-types/4_storing_and_retrieving_data_from_an_array.cpp
 )

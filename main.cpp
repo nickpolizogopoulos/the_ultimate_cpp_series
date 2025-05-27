@@ -13,6 +13,7 @@ void playground();
         void rollTheDice();
         void formattedOutputTable();
         void addressInputUsingGetline();
+        void storingAndRetrievingDataFromAnArray();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -28,7 +29,8 @@ int main() {
         //2. Fundamental Data Types
             // rollTheDice();
             // formattedOutputTable();
-            addressInputUsingGetline();
+            // addressInputUsingGetline();
+            storingAndRetrievingDataFromAnArray();
 
     playground();
     return 0;
