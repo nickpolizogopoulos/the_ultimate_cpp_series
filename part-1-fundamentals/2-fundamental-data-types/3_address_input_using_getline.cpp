@@ -15,6 +15,8 @@
 
 void addressInputUsingGetline() {
 
+    std::cout << "Exercise: Address Input using getline()" << std::endl << "=======================================" << std::endl;
+
     std::string street;
     std::cout << "Enter your Street: ";
     std::getline(std::cin, street);
@@ -36,4 +38,6 @@ void addressInputUsingGetline() {
         << "Your Address is:" << std::endl
         << street << std::endl
         << city << ", " << state << ", " << zipcode;
+
+    std::cout << std::endl << std::endl;
 }
