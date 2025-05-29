@@ -23,6 +23,7 @@ void playground();
         void factorialCalculator();
         void averageTemperature();
         void secretNumber();
+        void secretNumberSimplified();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -47,9 +48,9 @@ int main() {
             // largerNumber();
             // basicCalculatorUsingSwitch();
             // factorialCalculator();
-            averageTemperature();
-
-
+            // averageTemperature();
+            // secretNumber();
+            secretNumberSimplified();
 
     playground();
     return 0;

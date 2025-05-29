@@ -29,4 +29,5 @@ add_executable(
                 part-1-fundamentals/4-loops/1_factorial-calculator.cpp
                 part-1-fundamentals/4-loops/2_average-temperature.cpp
                 part-1-fundamentals/4-loops/3_secret_number.cpp
+                part-1-fundamentals/4-loops/4_secret_number_simplified.cpp
 )
