@@ -21,4 +21,6 @@ add_executable(
                 part-1-fundamentals/2-fundamental-data-types/3_address_input_using_getline.cpp
                 part-1-fundamentals/2-fundamental-data-types/4_storing_and_retrieving_data_from_an_array.cpp
                 part-1-fundamentals/2-fundamental-data-types/5_type_conversion.cpp
+            # 3. Decision Making
+                part-1-fundamentals/3-decision-making/1_job_eligibility.cpp
 )
