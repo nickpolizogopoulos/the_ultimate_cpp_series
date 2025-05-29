@@ -27,4 +27,5 @@ void averageTemperature() {
     std::cout << "The average is: " << averageTemperature;
 
     std::cout << std::endl << std::endl;
+
 }
