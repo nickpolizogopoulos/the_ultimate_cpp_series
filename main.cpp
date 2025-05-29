@@ -20,6 +20,7 @@ void playground();
         void commissionCalculation();
         void largerNumber();
         void basicCalculatorUsingSwitch();
+        void factorialCalculator();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -42,7 +43,8 @@ int main() {
             // jobEligibility ();
             // commissionCalculation();
             // largerNumber();
-            basicCalculatorUsingSwitch();
+            // basicCalculatorUsingSwitch();
+            factorialCalculator();
 
 
     playground();

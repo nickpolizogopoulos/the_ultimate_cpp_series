@@ -26,4 +26,5 @@ add_executable(
                 part-1-fundamentals/3-decision-making/2_commission_calculation.cpp
                 part-1-fundamentals/3-decision-making/3_larger_number.cpp
                 part-1-fundamentals/3-decision-making/4_basic_calculator_using_switch.cpp
+                part-1-fundamentals/4-loops/1_factorial-calculator.cpp
 )
