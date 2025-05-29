@@ -21,6 +21,7 @@ void playground();
         void largerNumber();
         void basicCalculatorUsingSwitch();
         void factorialCalculator();
+        void averageTemperature();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -44,7 +45,8 @@ int main() {
             // commissionCalculation();
             // largerNumber();
             // basicCalculatorUsingSwitch();
-            factorialCalculator();
+            // factorialCalculator();
+            averageTemperature();
 
 
     playground();
