@@ -28,8 +28,9 @@ void jobEligibility () {
     const bool isCitizen = citizenship == "US" || citizenship == "us";
     const bool hasBSc = degree == "Y" || degree == "y";
     const bool hasExperience = experience >= 2;
+    const bool isEligibleToWork = isCitizen && (hasBSc || hasExperience);
 
-    std::cout << std::endl << "Eligible to work: " << std::boolalpha << (isCitizen && (hasBSc || hasExperience));
+    std::cout << std::endl << "Eligible to work: " << std::boolalpha << isEligibleToWork;
 
     std::cout << std::endl << std::endl;
 }
