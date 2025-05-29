@@ -16,17 +16,18 @@ void commissionCalculation() {
     std::cout << "Exercise: Commission Calculation." << std::endl << "=======================================" << std::endl;
 
     double sales;
+    short commission;
     std::cout << "Enter sales: ";
     std::cin >> sales;
 
-    std::cout << "Commission: ";
-
     if (sales <= 10'000)
-        std::cout << "10%";
-    else if (sales >= 10'000 && sales <= 15'000)
-        std::cout << "15%";
+        commission = 10;
+    else if (sales <= 15'000)
+        commission = 15;
     else
-        std::cout << "20%";
+        commission = 20;
+
+    std::cout << "Commission: " << commission << "%";
 
     std::cout << std::endl << std::endl;
 }
