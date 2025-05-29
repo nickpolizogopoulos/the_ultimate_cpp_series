@@ -23,4 +23,5 @@ add_executable(
                 part-1-fundamentals/2-fundamental-data-types/5_type_conversion.cpp
             # 3. Decision Making
                 part-1-fundamentals/3-decision-making/1_job_eligibility.cpp
+                part-1-fundamentals/3-decision-making/2_commission_calculation.cpp
 )

@@ -17,6 +17,7 @@ void playground();
         void typeConversion();
     //2. Decision-Making
         void jobEligibility ();
+        void commissionCalculation();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -36,10 +37,10 @@ int main() {
             // storingAndRetrievingDataFromAnArray();
             // typeConversion();
         //3. Decision-Making
-            jobEligibility ();
+            // jobEligibility ();
+            commissionCalculation();
 
 
-
-    // playground();
+    playground();
     return 0;
 }
