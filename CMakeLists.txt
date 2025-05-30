@@ -32,4 +32,6 @@ add_executable(
                 part-1-fundamentals/4-loops/3_secret_number.cpp
                 part-1-fundamentals/4-loops/4_secret_number_simplified.cpp
                 part-1-fundamentals/4-loops/5_star_pattern.cpp
+            # 5. Functions
+                part-1-fundamentals/5-functions/1_max_of_two_numbers.cpp
 )
