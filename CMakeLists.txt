@@ -26,8 +26,10 @@ add_executable(
                 part-1-fundamentals/3-decision-making/2_commission_calculation.cpp
                 part-1-fundamentals/3-decision-making/3_larger_number.cpp
                 part-1-fundamentals/3-decision-making/4_basic_calculator_using_switch.cpp
+            # 4. Loops
                 part-1-fundamentals/4-loops/1_factorial-calculator.cpp
                 part-1-fundamentals/4-loops/2_average-temperature.cpp
                 part-1-fundamentals/4-loops/3_secret_number.cpp
                 part-1-fundamentals/4-loops/4_secret_number_simplified.cpp
+                part-1-fundamentals/4-loops/5_star_pattern.cpp
 )

@@ -20,10 +20,12 @@ void playground();
         void commissionCalculation();
         void largerNumber();
         void basicCalculatorUsingSwitch();
+    //4. Loops
         void factorialCalculator();
         void averageTemperature();
         void secretNumber();
         void secretNumberSimplified();
+        void starPattern();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -50,7 +52,8 @@ int main() {
             // factorialCalculator();
             // averageTemperature();
             // secretNumber();
-            secretNumberSimplified();
+            // secretNumberSimplified();
+            starPattern();
 
     playground();
     return 0;
