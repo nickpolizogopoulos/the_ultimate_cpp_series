@@ -26,6 +26,8 @@ void playground();
         void secretNumber();
         void secretNumberSimplified();
         void starPattern();
+    //5. Functions
+        void maxOfTwoNumbers();
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -49,11 +51,14 @@ int main() {
             // commissionCalculation();
             // largerNumber();
             // basicCalculatorUsingSwitch();
+        //4. Loops
             // factorialCalculator();
             // averageTemperature();
             // secretNumber();
             // secretNumberSimplified();
-            starPattern();
+            // starPattern();
+        //5. Functions
+            maxOfTwoNumbers();
 
     playground();
     return 0;
