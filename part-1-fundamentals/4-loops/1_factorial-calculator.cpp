@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include "loops.h"
 
 // Ask the user for a number.
 // Print the factorial of that number.

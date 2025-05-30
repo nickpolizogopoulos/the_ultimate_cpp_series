@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include "decision-making.h"
 
 // Ask the user for two numbers.
 // Store the larger value in a separate variable and print it.

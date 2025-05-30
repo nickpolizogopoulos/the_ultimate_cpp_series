@@ -1,64 +1,45 @@
 #include <iostream>
 
-void playground();
-//Part 1: Fundamentals
-    //1. The Basics
-        void runSalesTaxCalculator();
-        void swapVariables();
-        void calculateExpression();
-        void calculateUserAge();
-        void fahrenheitToCelsius();
-        void areaOfACircle();
-    //2. Fundamental Data Types
-        void rollTheDice();
-        void formattedOutputTable();
-        void addressInputUsingGetline();
-        void storingAndRetrievingDataFromAnArray();
-        void typeConversion();
-    //3. Decision-Making
-        void jobEligibility ();
-        void commissionCalculation();
-        void largerNumber();
-        void basicCalculatorUsingSwitch();
-    //4. Loops
-        void factorialCalculator();
-        void averageTemperature();
-        void secretNumber();
-        void secretNumberSimplified();
-        void starPattern();
-    //5. Functions
-        void maxOfTwoNumbers();
+#include "playground/playground.h"
+
+// Part 1: Fundamentals
+    #include "part-1-fundamentals/1-the-basics/basics.h"
+    #include "part-1-fundamentals/2-fundamental-data-types/fundamental-data-types.h"
+    #include "part-1-fundamentals/3-decision-making/decision-making.h"
+    #include "part-1-fundamentals/4-loops/loops.h"
+    #include "part-1-fundamentals/5-functions/functions.h"
+
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
 
-    //Part 1: Fundamentals
-        //1. The Basics
+    // Part 1: Fundamentals
+        // 1. The Basics
             // swapVariables();
-            // runSalesTaxCalculator();
             // calculateExpression();
+            // runSalesTaxCalculator();
             // calculateUserAge();
             // fahrenheitToCelsius();
             // areaOfACircle();
-        //2. Fundamental Data Types
+        // 2. Fundamental Data Types
             // rollTheDice();
             // formattedOutputTable();
             // addressInputUsingGetline();
             // storingAndRetrievingDataFromAnArray();
             // typeConversion();
-        //3. Decision-Making
+        // 3. Decision-Making
             // jobEligibility ();
             // commissionCalculation();
             // largerNumber();
             // basicCalculatorUsingSwitch();
-        //4. Loops
+        // 4. Loops
             // factorialCalculator();
             // averageTemperature();
             // secretNumber();
             // secretNumberSimplified();
             // starPattern();
-        //5. Functions
-            maxOfTwoNumbers();
+        // 5. Functions
+            // maxOfTwoNumbers();
 
     playground();
     return 0;

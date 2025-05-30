@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include "functions.h"
 
 // Create a function that receives two integers and returns the maximum of the two.
 

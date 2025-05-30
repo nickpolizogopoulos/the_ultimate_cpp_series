@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include "loops.h"
 
 // Given a list of temperatures,
 // write code to calculate the average temperature.

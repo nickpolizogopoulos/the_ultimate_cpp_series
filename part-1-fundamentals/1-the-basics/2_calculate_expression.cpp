@@ -2,6 +2,7 @@
 // Created by Nick Polizogopoulos on 23/5/25.
 //
 #include <iostream>
+#include "basics.h"
 
 // Solve for z = x + 10 / 3y
 // Given x = 10 and y = 5, find z.

@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include "loops.h"
 
 // Write a program and ask the user for the number of rows.
 // If they enter 5, print this shape:

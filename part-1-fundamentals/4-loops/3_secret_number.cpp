@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include "loops.h"
 
 // Declare a secret number.
 // Continuously ask the user to guess the secret number.

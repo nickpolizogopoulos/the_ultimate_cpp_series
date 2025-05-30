@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include "fundamental-data-types.h"
 
 /* Two integers and a double:
  *

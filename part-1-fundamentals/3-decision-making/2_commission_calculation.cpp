@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include "decision-making.h"
 
 // Sales                    Commission
 // Up to $10.000            10%

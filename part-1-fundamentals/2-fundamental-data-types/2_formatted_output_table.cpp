@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include "fundamental-data-types.h"
 
 /* Write a program for printing this table:
 Course		 Students
