@@ -9,6 +9,9 @@
     #include "part-1-fundamentals/4-loops/loops.h"
     #include "part-1-fundamentals/5-functions/functions.h"
 
+// Part 2: Intermediate
+    #include "part-2-intermediate/1-arrays/arrays.h"
+
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -41,6 +44,10 @@ int main() {
         // 5. Functions
             // maxOfTwoNumbers();
 
-    playground();
+    // Part 2: Intermediate
+        // 1. Arrays
+            copyFromOneArrayToAnother();
+
+    // playground();
     return 0;
 }

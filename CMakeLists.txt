@@ -40,4 +40,9 @@ add_executable(
             # 5. Functions
                 part-1-fundamentals/5-functions/1_max_of_two_numbers.cpp
                 part-1-fundamentals/5-functions/functions.h
+
+        # Part 2: Intermediate
+            # 1. Arrays
+                part-2-intermediate/1-arrays/1_copy_from_one_array_to_another.cpp
+                part-2-intermediate/1-arrays/arrays.h
 )
