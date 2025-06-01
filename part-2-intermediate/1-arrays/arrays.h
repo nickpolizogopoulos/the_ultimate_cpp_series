@@ -6,5 +6,7 @@
 #define ARRAYS_H
 
 void copyFromOneArrayToAnother();
+void comparingTwoArrays();
+void structuredBinding();
 
 #endif //ARRAYS_H
