@@ -9,5 +9,6 @@ void copyFromOneArrayToAnother();
 void comparingTwoArrays();
 void structuredBinding();
 void linearSearchAlgorithm();
+void bubbleSortAlgorithm();
 
 #endif //ARRAYS_H

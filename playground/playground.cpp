@@ -6,5 +6,5 @@
 
 void playground() {
 
-    std::cout << "Hello World!";
+    std::cout << "Hello Playground!";
 }

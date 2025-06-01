@@ -49,7 +49,8 @@ int main() {
             // copyFromOneArrayToAnother();
             // comparingTwoArrays();
             // structuredBinding();
-            linearSearchAlgorithm();
+            // linearSearchAlgorithm();
+            bubbleSortAlgorithm();
 
     // playground();
     return 0;
