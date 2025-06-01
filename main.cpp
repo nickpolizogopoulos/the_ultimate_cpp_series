@@ -46,10 +46,10 @@ int main() {
 
     // Part 2: Intermediate
         // 1. Arrays
-            copyFromOneArrayToAnother();
             // copyFromOneArrayToAnother();
             // comparingTwoArrays();
+            structuredBinding();
 
-    // playground();
+    playground();
     return 0;
 }
