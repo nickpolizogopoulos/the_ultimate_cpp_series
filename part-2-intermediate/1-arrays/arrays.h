@@ -8,5 +8,6 @@
 void copyFromOneArrayToAnother();
 void comparingTwoArrays();
 void structuredBinding();
+void linearSearchAlgorithm();
 
 #endif //ARRAYS_H

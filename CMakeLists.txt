@@ -46,5 +46,6 @@ add_executable(
                 part-2-intermediate/1-arrays/1_copy_from_one_array_to_another.cpp
                 part-2-intermediate/1-arrays/2_comparing_arrays.cpp
                 part-2-intermediate/1-arrays/3_structured_binding.cpp
+                part-2-intermediate/1-arrays/4_linear_search_algorithm.cpp
                 part-2-intermediate/1-arrays/arrays.h
 )

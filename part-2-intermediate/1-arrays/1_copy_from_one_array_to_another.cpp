@@ -2,7 +2,6 @@
 // Created by Nick Polizogopoulos on 31/5/25.
 //
 
-#include <array>
 #include <iostream>
 #include "arrays.h"
 

@@ -48,8 +48,9 @@ int main() {
         // 1. Arrays
             // copyFromOneArrayToAnother();
             // comparingTwoArrays();
-            structuredBinding();
+            // structuredBinding();
+            linearSearchAlgorithm();
 
-    playground();
+    // playground();
     return 0;
 }

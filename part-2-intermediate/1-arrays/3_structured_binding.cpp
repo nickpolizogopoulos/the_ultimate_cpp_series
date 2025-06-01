@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include "arrays.h"
 
 // Define an array with three values that represent x, y and z coordinates.
 // Store these values in three variables x, y and z using Structured Binding.
