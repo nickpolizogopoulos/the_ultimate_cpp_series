@@ -50,7 +50,8 @@ int main() {
             // comparingTwoArrays();
             // structuredBinding();
             // linearSearchAlgorithm();
-            bubbleSortAlgorithm();
+            // bubbleSortAlgorithm();
+            multiDimensionalArray();
 
     // playground();
     return 0;

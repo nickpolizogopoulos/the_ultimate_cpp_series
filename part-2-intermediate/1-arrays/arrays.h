@@ -10,5 +10,6 @@ void comparingTwoArrays();
 void structuredBinding();
 void linearSearchAlgorithm();
 void bubbleSortAlgorithm();
+void multiDimensionalArray();
 
 #endif //ARRAYS_H
