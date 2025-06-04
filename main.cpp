@@ -11,6 +11,7 @@
 
 // Part 2: Intermediate
     #include "part-2-intermediate/1-arrays/arrays.h"
+    #include "part-2-intermediate/2-pointers/pointers.h"
 
 
 int main() {
@@ -51,7 +52,9 @@ int main() {
             // structuredBinding();
             // linearSearchAlgorithm();
             // bubbleSortAlgorithm();
-            multiDimensionalArray();
+            // multiDimensionalArray();
+        // 2. Pointers
+            modifyWithPointers();
 
     // playground();
     return 0;
