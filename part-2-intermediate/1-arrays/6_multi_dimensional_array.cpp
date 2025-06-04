@@ -35,5 +35,5 @@ void multiDimensionalArray() {
 
     printMultiDimensionalArray(keypad);
 
-    std::cout << std::endl << std::endl;
+    std::cout << std::endl;
 }
