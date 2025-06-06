@@ -52,5 +52,6 @@ add_executable(
                 part-2-intermediate/1-arrays/arrays.h
             # 2. Pointers
                 part-2-intermediate/2-pointers/1_modify_with_pointers.cpp
+                part-2-intermediate/2-pointers/2_swap_using_pointers.cpp
                 part-2-intermediate/2-pointers/pointers.h
 )

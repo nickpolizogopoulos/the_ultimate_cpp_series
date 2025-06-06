@@ -6,5 +6,6 @@
 #define POINTERS_H
 
 void modifyWithPointers();
+void swapUsingPointers();
 
 #endif //POINTERS_H

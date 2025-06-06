@@ -54,7 +54,8 @@ int main() {
             // bubbleSortAlgorithm();
             // multiDimensionalArray();
         // 2. Pointers
-            modifyWithPointers();
+            // modifyWithPointers();
+            swapUsingPointers();
 
     // playground();
     return 0;
