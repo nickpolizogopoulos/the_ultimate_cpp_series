@@ -13,7 +13,7 @@ void swap(int* first, int* second) {
     *second = temporary;
 }
 
-void swapUsingPointers() {
+void swapVariableValuesUsingPointers() {
 
     std::cout << "Exercise: Swap two variables using Pointers" << std::endl << "=======================================" << std::endl;
 

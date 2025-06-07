@@ -55,7 +55,7 @@ int main() {
             // multiDimensionalArray();
         // 2. Pointers
             // modifyWithPointers();
-            swapUsingPointers();
+            swapVariableValuesUsingPointers();
 
     // playground();
     return 0;
