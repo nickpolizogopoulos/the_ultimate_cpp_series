@@ -7,5 +7,6 @@
 
 void modifyWithPointers();
 void swapVariableValuesUsingPointers();
+void reverseIterationUsingPointer();
 
 #endif //POINTERS_H
