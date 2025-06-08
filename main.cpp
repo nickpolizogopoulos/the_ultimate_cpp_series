@@ -12,6 +12,7 @@
 // Part 2: Intermediate
     #include "part-2-intermediate/1-arrays/arrays.h"
     #include "part-2-intermediate/2-pointers/pointers.h"
+    #include "part-2-intermediate/3-strings/strings.h"
 
 
 int main() {
@@ -56,7 +57,9 @@ int main() {
         // 2. Pointers
             // modifyWithPointers();
             // swapVariableValuesUsingPointers();
-            reverseIterationUsingPointer();
+            // reverseIterationUsingPointer();
+        // 3. Strings
+            searchingCharactersInStrings();
 
     // playground();
     return 0;
