@@ -24,7 +24,7 @@ void searchingCharactersInStrings() {
     int position = input.find(character);
 
     if (position == -1)
-        std::cout << character << " is not found in " << input << std::endl;
+        std::cout << "\"" << character << "\"" << " is not found in \"" + input + "\": ";
     else
         std::cout << "\"" << character << "\"" << " is found in position " << position + 1 << ".";
 
