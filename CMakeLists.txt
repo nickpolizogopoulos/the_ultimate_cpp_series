@@ -58,5 +58,6 @@ add_executable(
             # 3. Strings
                 part-2-intermediate/3-strings/1_searching_characters_in_strings.cpp
                 part-2-intermediate/3-strings/2_extracting_substrings.cpp
+                part-2-intermediate/3-strings/3_customer_number_validation.cpp
                 part-2-intermediate/3-strings/strings.h
 )

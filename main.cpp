@@ -60,7 +60,8 @@ int main() {
             // reverseIterationUsingPointer();
         // 3. Strings
             // searchingCharactersInStrings();
-            extractSubstrings();
+            // extractSubstrings();
+            customerNumberValidation();
 
     // playground();
     return 0;

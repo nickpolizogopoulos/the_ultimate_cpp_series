@@ -7,5 +7,6 @@
 
 void searchingCharactersInStrings();
 void extractSubstrings();
+void customerNumberValidation();
 
 #endif //STRINGS_H
