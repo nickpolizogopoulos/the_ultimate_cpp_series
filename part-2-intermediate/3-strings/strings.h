@@ -6,5 +6,6 @@
 #define STRINGS_H
 
 void searchingCharactersInStrings();
+void extractSubstrings();
 
 #endif //STRINGS_H

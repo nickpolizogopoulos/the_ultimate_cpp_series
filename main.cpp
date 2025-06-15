@@ -59,7 +59,8 @@ int main() {
             // swapVariableValuesUsingPointers();
             // reverseIterationUsingPointer();
         // 3. Strings
-            searchingCharactersInStrings();
+            // searchingCharactersInStrings();
+            extractSubstrings();
 
     // playground();
     return 0;

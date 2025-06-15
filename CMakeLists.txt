@@ -57,5 +57,6 @@ add_executable(
                 part-2-intermediate/2-pointers/pointers.h
             # 3. Strings
                 part-2-intermediate/3-strings/1_searching_characters_in_strings.cpp
+                part-2-intermediate/3-strings/2_extracting_substrings.cpp
                 part-2-intermediate/3-strings/strings.h
 )
