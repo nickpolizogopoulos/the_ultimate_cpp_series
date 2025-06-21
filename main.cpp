@@ -64,7 +64,8 @@ int main() {
             // extractSubstrings();
             // customerNumberValidation();
         // 4. Structures and Enumerations
-            representCustomersViaStructures();
+            // representCustomersViaStructures();
+            vectorIterationWithUserDefinedObjects();
 
     // playground();
     return 0;

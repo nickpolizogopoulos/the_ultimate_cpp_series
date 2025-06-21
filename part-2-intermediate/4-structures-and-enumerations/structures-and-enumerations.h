@@ -6,5 +6,6 @@
 #define STRUCTURES_AND_ENUMERATIONS_H
 
 void representCustomersViaStructures();
+void vectorIterationWithUserDefinedObjects();
 
 #endif //STRUCTURES_AND_ENUMERATIONS_H
