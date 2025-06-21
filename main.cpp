@@ -13,6 +13,7 @@
     #include "part-2-intermediate/1-arrays/arrays.h"
     #include "part-2-intermediate/2-pointers/pointers.h"
     #include "part-2-intermediate/3-strings/strings.h"
+    #include "part-2-intermediate/4-structures-and-enumerations/structures-and-enumerations.h"
 
 
 int main() {
@@ -61,7 +62,9 @@ int main() {
         // 3. Strings
             // searchingCharactersInStrings();
             // extractSubstrings();
-            customerNumberValidation();
+            // customerNumberValidation();
+        // 4. Structures and Enumerations
+            representCustomersViaStructures();
 
     // playground();
     return 0;
