@@ -65,7 +65,8 @@ int main() {
             // customerNumberValidation();
         // 4. Structures and Enumerations
             // representCustomersViaStructures();
-            vectorIterationWithUserDefinedObjects();
+            // vectorIterationWithUserDefinedObjects();
+            enhancedCustomerObjectWithNestedStruct();
 
     // playground();
     return 0;

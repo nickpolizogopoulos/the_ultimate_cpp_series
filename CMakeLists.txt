@@ -63,5 +63,6 @@ add_executable(
             # 4. Structures and Enumerations
                 part-2-intermediate/4-structures-and-enumerations/1_represent_customers_via_structures.cpp
                 part-2-intermediate/4-structures-and-enumerations/2_vector_iteration_with_user_defined_objects.cpp
+                part-2-intermediate/4-structures-and-enumerations/3_enhanced_customer_object_with_nested_struct.cpp
                 part-2-intermediate/4-structures-and-enumerations/structures-and-enumerations.h
 )

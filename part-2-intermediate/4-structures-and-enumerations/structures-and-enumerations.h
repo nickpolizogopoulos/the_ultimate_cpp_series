@@ -7,5 +7,6 @@
 
 void representCustomersViaStructures();
 void vectorIterationWithUserDefinedObjects();
+void enhancedCustomerObjectWithNestedStruct();
 
 #endif //STRUCTURES_AND_ENUMERATIONS_H
