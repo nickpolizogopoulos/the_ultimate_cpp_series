@@ -66,7 +66,8 @@ int main() {
         // 4. Structures and Enumerations
             // representCustomersViaStructures();
             // vectorIterationWithUserDefinedObjects();
-            enhancedCustomerObjectWithNestedStruct();
+            // enhancedCustomerObjectWithNestedStruct();
+            operatorOverloadingToCompareAndStreamPoints();
 
     // playground();
     return 0;

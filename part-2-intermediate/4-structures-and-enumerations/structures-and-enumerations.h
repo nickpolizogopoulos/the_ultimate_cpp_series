@@ -8,5 +8,6 @@
 void representCustomersViaStructures();
 void vectorIterationWithUserDefinedObjects();
 void enhancedCustomerObjectWithNestedStruct();
+void operatorOverloadingToCompareAndStreamPoints();
 
 #endif //STRUCTURES_AND_ENUMERATIONS_H
