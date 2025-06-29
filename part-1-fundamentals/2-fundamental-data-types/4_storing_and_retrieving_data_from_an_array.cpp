@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "fundamental-data-types.h"
+#include "fundamental_data_types.h"
 
 // Write a program that asks the user for three names.
 // Store these names in an array and then print the first name.

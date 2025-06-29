@@ -2,7 +2,7 @@
 // Created by Nick Polizogopoulos on 21/6/25.
 //
 #include <iostream>
-#include "structures-and-enumerations.h"
+#include "structures_and_enumerations.h"
 #include <vector>
 
 // Ask the user to enter their two favorite movies and store them in a vector.

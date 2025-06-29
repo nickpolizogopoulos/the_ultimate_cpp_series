@@ -5,7 +5,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "fundamental-data-types.h"
+#include "fundamental_data_types.h"
 
 /* Write a program to roll a dice.
 Everytime we run it, we get two values between 1-6.

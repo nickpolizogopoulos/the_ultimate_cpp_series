@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "structures-and-enumerations.h"
+#include "structures_and_enumerations.h"
 
 // Define a Structure for representing customers.
 // Each customer should have three attributes:

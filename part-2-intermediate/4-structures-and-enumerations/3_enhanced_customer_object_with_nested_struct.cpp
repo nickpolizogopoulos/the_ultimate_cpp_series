@@ -2,7 +2,7 @@
 // Created by Nick Polizogopoulos on 28/6/25.
 //
 #include <iostream>
-#include "structures-and-enumerations.h"
+#include "structures_and_enumerations.h"
 
 // Create a Structure for representing an address.
 // Each address should have: Street, City, Zipcode.

@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "decision-making.h"
+#include "decision_making.h"
 
 // Create a basic Calculator.
 // Ask the user for two numbers and an operator.

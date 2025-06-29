@@ -2,7 +2,7 @@
 // Created by Nick Polizogopoulos on 28/6/25.
 //
 #include <iostream>
-#include "structures-and-enumerations.h"
+#include "structures_and_enumerations.h"
 
 struct Point {
     int x;
