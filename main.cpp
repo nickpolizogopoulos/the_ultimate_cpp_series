@@ -14,6 +14,7 @@
     #include "part-2-intermediate/2-pointers/pointers.h"
     #include "part-2-intermediate/3-strings/strings.h"
     #include "part-2-intermediate/4-structures-and-enumerations/structures-and-enumerations.h"
+    #include "part-2-intermediate/5-streams-and-files/streams_and_files.h"
 
 
 int main() {
@@ -67,7 +68,9 @@ int main() {
             // representCustomersViaStructures();
             // vectorIterationWithUserDefinedObjects();
             // enhancedCustomerObjectWithNestedStruct();
-            operatorOverloadingToCompareAndStreamPoints();
+            // operatorOverloadingToCompareAndStreamPoints();
+        // 5. Streams and Files
+            handlingInputStreamErrorsWithReusableLogic();
 
     // playground();
     return 0;

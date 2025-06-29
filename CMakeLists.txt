@@ -66,4 +66,7 @@ add_executable(
                 part-2-intermediate/4-structures-and-enumerations/3_enhanced_customer_object_with_nested_struct.cpp
                 part-2-intermediate/4-structures-and-enumerations/4_operator_overloading_to_compare_and_stream_points.cpp
                 part-2-intermediate/4-structures-and-enumerations/structures-and-enumerations.h
+            # 5. Streams and Files
+                part-2-intermediate/5-streams-and-files/handling_input_stream_errors_with_reusable_logic.cpp
+                part-2-intermediate/5-streams-and-files/streams_and_files.h
 )
