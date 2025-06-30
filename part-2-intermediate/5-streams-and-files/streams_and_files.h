@@ -6,5 +6,6 @@
 #define STREAMS_AND_FILES_H
 
 void handlingInputStreamErrorsWithReusableLogic();
+void writingToFiles();
 
 #endif //STREAMS_AND_FILES_H

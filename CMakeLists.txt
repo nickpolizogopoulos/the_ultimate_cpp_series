@@ -8,6 +8,7 @@ add_executable(
         main.cpp
         playground/playground.cpp
         playground/playground.h
+
         # Part 1: Fundamentals
             # 1. The Basics
                 part-1-fundamentals/1-the-basics/1_swap_variables.cpp
@@ -23,13 +24,13 @@ add_executable(
                 part-1-fundamentals/2-fundamental-data-types/3_address_input_using_getline.cpp
                 part-1-fundamentals/2-fundamental-data-types/4_storing_and_retrieving_data_from_an_array.cpp
                 part-1-fundamentals/2-fundamental-data-types/5_type_conversion.cpp
-        part-1-fundamentals/2-fundamental-data-types/fundamental_data_types.h
+                part-1-fundamentals/2-fundamental-data-types/fundamental_data_types.h
             # 3. Decision Making
                 part-1-fundamentals/3-decision-making/1_job_eligibility.cpp
                 part-1-fundamentals/3-decision-making/2_commission_calculation.cpp
                 part-1-fundamentals/3-decision-making/3_larger_number.cpp
                 part-1-fundamentals/3-decision-making/4_basic_calculator_using_switch.cpp
-        part-1-fundamentals/3-decision-making/decision_making.h
+                part-1-fundamentals/3-decision-making/decision_making.h
             # 4. Loops
                 part-1-fundamentals/4-loops/1_factorial-calculator.cpp
                 part-1-fundamentals/4-loops/2_average-temperature.cpp
@@ -65,8 +66,9 @@ add_executable(
                 part-2-intermediate/4-structures-and-enumerations/2_vector_iteration_with_user_defined_objects.cpp
                 part-2-intermediate/4-structures-and-enumerations/3_enhanced_customer_object_with_nested_struct.cpp
                 part-2-intermediate/4-structures-and-enumerations/4_operator_overloading_to_compare_and_stream_points.cpp
-        part-2-intermediate/4-structures-and-enumerations/structures_and_enumerations.h
+                part-2-intermediate/4-structures-and-enumerations/structures_and_enumerations.h
             # 5. Streams and Files
-                part-2-intermediate/5-streams-and-files/handling_input_stream_errors_with_reusable_logic.cpp
+                part-2-intermediate/5-streams-and-files/1_handling_input_stream_errors_with_reusable_logic.cpp
+                part-2-intermediate/5-streams-and-files/2_writing_to_files.cpp
                 part-2-intermediate/5-streams-and-files/streams_and_files.h
 )

@@ -5,8 +5,8 @@
 // Part 1: Fundamentals
     #include "part-1-fundamentals/1-the-basics/basics.h"
     #include "part-1-fundamentals/2-fundamental-data-types/fundamental_data_types.h"
-#include "part-1-fundamentals/3-decision-making/decision_making.h"
-#include "part-1-fundamentals/4-loops/loops.h"
+    #include "part-1-fundamentals/3-decision-making/decision_making.h"
+    #include "part-1-fundamentals/4-loops/loops.h"
     #include "part-1-fundamentals/5-functions/functions.h"
 
 // Part 2: Intermediate
@@ -14,7 +14,7 @@
     #include "part-2-intermediate/2-pointers/pointers.h"
     #include "part-2-intermediate/3-strings/strings.h"
     #include "part-2-intermediate/4-structures-and-enumerations/structures_and_enumerations.h"
-#include "part-2-intermediate/5-streams-and-files/streams_and_files.h"
+    #include "part-2-intermediate/5-streams-and-files/streams_and_files.h"
 
 
 int main() {
@@ -70,7 +70,8 @@ int main() {
             // enhancedCustomerObjectWithNestedStruct();
             // operatorOverloadingToCompareAndStreamPoints();
         // 5. Streams and Files
-            handlingInputStreamErrorsWithReusableLogic();
+            // handlingInputStreamErrorsWithReusableLogic();
+            writingToFiles();
 
     // playground();
     return 0;
