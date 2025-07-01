@@ -7,5 +7,6 @@
 
 void handlingInputStreamErrorsWithReusableLogic();
 void writingToFiles();
+void readingFromFiles();
 
 #endif //STREAMS_AND_FILES_H

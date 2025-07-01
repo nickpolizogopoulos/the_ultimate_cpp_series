@@ -71,7 +71,8 @@ int main() {
             // operatorOverloadingToCompareAndStreamPoints();
         // 5. Streams and Files
             // handlingInputStreamErrorsWithReusableLogic();
-            writingToFiles();
+            // writingToFiles();
+            readingFromFiles();
 
     // playground();
     return 0;

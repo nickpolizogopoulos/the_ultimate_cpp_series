@@ -36,4 +36,6 @@ void handlingInputStreamErrorsWithReusableLogic() {
         << "------------" << std::endl
         << "Your First number: " << first << std::endl
         << "Your Second number: " << second;
+
+    std::cout << std::endl << std::endl;
 }
