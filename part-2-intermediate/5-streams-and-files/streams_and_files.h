@@ -8,5 +8,6 @@
 void handlingInputStreamErrorsWithReusableLogic();
 void writingToFiles();
 void readingFromFiles();
+void convertingNumberToStrings();
 
 #endif //STREAMS_AND_FILES_H

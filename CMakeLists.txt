@@ -71,5 +71,6 @@ add_executable(
                 part-2-intermediate/5-streams-and-files/1_handling_input_stream_errors_with_reusable_logic.cpp
                 part-2-intermediate/5-streams-and-files/2_writing_to_files.cpp
                 part-2-intermediate/5-streams-and-files/3_reading_from_files.cpp
+                part-2-intermediate/5-streams-and-files/4_converting_numbers_to_strings.cpp
                 part-2-intermediate/5-streams-and-files/streams_and_files.h
 )
