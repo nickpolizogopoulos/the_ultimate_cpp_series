@@ -73,7 +73,8 @@ int main() {
             // handlingInputStreamErrorsWithReusableLogic();
             // writingToFiles();
             // readingFromFiles();
-            convertingNumberToStrings();
+            // convertingNumberToStrings();
+            parsingTextIntoObjectsWithStreams();
 
     // playground();
     return 0;

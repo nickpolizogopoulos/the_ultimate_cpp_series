@@ -73,4 +73,5 @@ add_executable(
                 part-2-intermediate/5-streams-and-files/3_reading_from_files.cpp
                 part-2-intermediate/5-streams-and-files/4_converting_numbers_to_strings.cpp
                 part-2-intermediate/5-streams-and-files/streams_and_files.h
+        part-2-intermediate/5-streams-and-files/5_parsing_text_into_objects_with_streams.cpp
 )
