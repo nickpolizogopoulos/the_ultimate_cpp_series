@@ -16,6 +16,9 @@
     #include "part-2-intermediate/4-structures-and-enumerations/structures_and_enumerations.h"
     #include "part-2-intermediate/5-streams-and-files/streams_and_files.h"
 
+// Part 3: Advanced
+    #include "part-3-advanced/1-classes/classes.h"
+
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -74,7 +77,11 @@ int main() {
             // writingToFiles();
             // readingFromFiles();
             // convertingNumberToStrings();
-            parsingTextIntoObjectsWithStreams();
+            // parsingTextIntoObjectsWithStreams();
+    // Part 3: Advanced
+        // 1. Classes
+            exerciseTextbox();
+            exerciseRectangle();
 
     // playground();
     return 0;

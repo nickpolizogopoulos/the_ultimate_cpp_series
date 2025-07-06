@@ -72,6 +72,18 @@ add_executable(
                 part-2-intermediate/5-streams-and-files/2_writing_to_files.cpp
                 part-2-intermediate/5-streams-and-files/3_reading_from_files.cpp
                 part-2-intermediate/5-streams-and-files/4_converting_numbers_to_strings.cpp
+                part-2-intermediate/5-streams-and-files/5_parsing_text_into_objects_with_streams.cpp
                 part-2-intermediate/5-streams-and-files/streams_and_files.h
-        part-2-intermediate/5-streams-and-files/5_parsing_text_into_objects_with_streams.cpp
+
+        # Part 3: Advanced
+            # 1. Classes
+                part-3-advanced/1-classes/1-textbox-class/exercise_textbox.cpp
+                part-3-advanced/1-classes/1-textbox-class/Textbox.cpp
+                part-3-advanced/1-classes/1-textbox-class/Textbox.h
+
+                part-3-advanced/1-classes/2-rectangle-class/exercise_rectangle.cpp
+                part-3-advanced/1-classes/2-rectangle-class/Rectangle.cpp
+                part-3-advanced/1-classes/2-rectangle-class/Rectangle.h
+
+                part-3-advanced/1-classes/classes.h
 )
