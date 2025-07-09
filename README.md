@@ -1,6 +1,9 @@
 # C++ Course Repository
 
-This repository contains exercises and projects from my C++ course.  
+This repository contains exercises and projects from my C++ course.
+
+All exercises are based on **[The Ultimate C++ Series](https://codewithmosh.com/p/ultimate-c-plus-plus-series)** courses, with many custom touches and enhancements added to deepen understanding and personalize the learning experience.
+
 It covers three parts:
 1. Fundamentals
 2. Intermediate

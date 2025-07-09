@@ -9,6 +9,9 @@ add_executable(
         playground/playground.cpp
         playground/playground.h
 
+        playground/rectangle-lesson/RectangleLesson.cpp
+        playground/rectangle-lesson/RectangleLesson.h
+
         # Part 1: Fundamentals
             # 1. The Basics
                 part-1-fundamentals/1-the-basics/1_swap_variables.cpp
