@@ -82,7 +82,8 @@ int main() {
         // 1. Classes
             // exerciseTextbox();
             // exerciseRectangle();
+            exercisePerson();
 
-    playground();
+    // playground();
     return 0;
 }

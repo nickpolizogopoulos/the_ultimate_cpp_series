@@ -88,5 +88,9 @@ add_executable(
                 part-3-advanced/1-classes/2-rectangle-class/Rectangle.cpp
                 part-3-advanced/1-classes/2-rectangle-class/Rectangle.h
 
+                part-3-advanced/1-classes/3-person-class/exercise-person.cpp
+                part-3-advanced/1-classes/3-person-class/Person.cpp
+                part-3-advanced/1-classes/3-person-class/Person.h
+
                 part-3-advanced/1-classes/classes.h
 )

@@ -7,6 +7,7 @@
 
 class RectangleLesson {
 public:
+    RectangleLesson() = default;
     RectangleLesson(double width, double height);
     double getArea();
     void draw() const;

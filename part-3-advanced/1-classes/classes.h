@@ -7,5 +7,6 @@
 
 void exerciseTextbox();
 void exerciseRectangle();
+void exercisePerson();
 
 #endif //CLASSES_H
