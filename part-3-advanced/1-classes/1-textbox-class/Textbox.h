@@ -7,11 +7,13 @@
 #include <iostream>
 
 class Textbox {
-private:
-    std::string value;
 public:
+    Textbox() = default;
+    explicit Textbox(const std::string& value);
     std::string getValue();
     void setValue(const std::string& value);
+private:
+    std::string value;
 };
 
 #endif //TEXTBOX_H

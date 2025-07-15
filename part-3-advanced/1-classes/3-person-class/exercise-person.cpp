@@ -5,7 +5,7 @@
 #include "Person.h"
 
 void showPerson(Person person) {
-    std::cout << "Person age is : " << person.getAge() << std::endl;
+    std::cout << "Person age is: " << person.getAge() << std::endl << std::endl;
 }
 
 void exercisePerson() {

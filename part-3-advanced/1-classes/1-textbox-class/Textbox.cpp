@@ -4,6 +4,9 @@
 
 #include "Textbox.h"
 
+
+Textbox::Textbox(const std::string &value) : value{value} {}
+
 std::string Textbox::getValue() {
     return value;
 }
