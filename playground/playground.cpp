@@ -10,6 +10,8 @@ void playground() {
 
     // std::cout << "Hello Playground!";
 
-    // RectangleLesson rectangle{10, 20};
-    // std::cout << rectangle.getWidth();
+    RectangleLesson first{10, 20};
+    RectangleLesson second = first;
+
+
 }

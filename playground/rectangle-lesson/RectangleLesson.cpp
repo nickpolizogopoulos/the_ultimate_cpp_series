@@ -5,10 +5,26 @@
 #include <iostream>
 #include "RectangleLesson.h"
 
+RectangleLesson::RectangleLesson(const RectangleLesson& source) {
+    std::cout << "Rectangle Copied!" << std::endl;
+    this->width = source.width;
+    this->height = source.height;
+    this->color = source.color;
+}
+
 RectangleLesson::RectangleLesson(double width, double height) {
     std::cout << "Constructing a Rectangle" << std::endl;
     setWidth(width);
     setHeight(height);
+}
+
+RectangleLesson::RectangleLesson(
+    double width,
+    double height,
+    const std::string& color
+) : RectangleLesson(width, height) {
+    std::cout << "Constructing a Rectangle with Color" << std::endl;
+    this->color = color;
 }
 
 void RectangleLesson::draw() const {

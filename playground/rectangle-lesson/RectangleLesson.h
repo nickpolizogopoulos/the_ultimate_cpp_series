@@ -8,18 +8,22 @@
 class RectangleLesson {
 public:
     RectangleLesson() = default;
+    RectangleLesson(const RectangleLesson& source);
     RectangleLesson(double width, double height);
+    RectangleLesson(double width, double height, const std::string& color);
     double getArea();
     void draw() const;
 
     double getWidth() const;
-    double getHeight() const;
-
     void setWidth(double width);
+
+    double getHeight() const;
     void setHeight(double height);
+
 private:
     double width = 0;
     double height = 0;
+    std::string color;
 };
 
 #endif //RECTANGLE_LESSON_H
