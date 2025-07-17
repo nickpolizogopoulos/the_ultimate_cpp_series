@@ -11,7 +11,8 @@ void playground() {
     // std::cout << "Hello Playground!";
 
     RectangleLesson first{10, 20};
-    RectangleLesson second = first;
+    RectangleLesson second{20, 30};
+    std::cout << RectangleLesson::getObjectsCount() << std::endl;
 
 
 }

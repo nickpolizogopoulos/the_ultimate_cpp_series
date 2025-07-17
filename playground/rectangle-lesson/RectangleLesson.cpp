@@ -5,14 +5,15 @@
 #include <iostream>
 #include "RectangleLesson.h"
 
-RectangleLesson::RectangleLesson(const RectangleLesson& source) {
-    std::cout << "Rectangle Copied!" << std::endl;
-    this->width = source.width;
-    this->height = source.height;
-    this->color = source.color;
-}
+// RectangleLesson::RectangleLesson(const RectangleLesson& source) {
+//     std::cout << "Rectangle Copied!" << std::endl;
+//     this->width = source.width;
+//     this->height = source.height;
+//     this->color = source.color;
+// }
 
 RectangleLesson::RectangleLesson(double width, double height) {
+    objectsCount++;
     std::cout << "Constructing a Rectangle" << std::endl;
     setWidth(width);
     setHeight(height);
@@ -25,6 +26,10 @@ RectangleLesson::RectangleLesson(
 ) : RectangleLesson(width, height) {
     std::cout << "Constructing a Rectangle with Color" << std::endl;
     this->color = color;
+}
+
+RectangleLesson::~RectangleLesson() {
+    std::cout << "Destructing a Rectangle" << std::endl;
 }
 
 void RectangleLesson::draw() const {
@@ -50,8 +55,14 @@ void RectangleLesson::setHeight(double height) {
     this->height = height;
 }
 
+int RectangleLesson::getObjectsCount() {
+    return objectsCount;
+}
+
 void RectangleLesson::setWidth(double width) {
     if (width < 0)
         throw std::invalid_argument("Width cannot be negative");
     this->width = width;
 }
+
+int RectangleLesson::objectsCount = 0;
