@@ -92,5 +92,9 @@ add_executable(
                 part-3-advanced/1-classes/3-person-class/Person.cpp
                 part-3-advanced/1-classes/3-person-class/Person.h
 
+                part-3-advanced/1-classes/4-smartpointer-class/exercise-smartpointer.cpp
+                part-3-advanced/1-classes/4-smartpointer-class/SmartPointer.cpp
+                part-3-advanced/1-classes/4-smartpointer-class/SmartPointer.h
+
                 part-3-advanced/1-classes/classes.h
 )

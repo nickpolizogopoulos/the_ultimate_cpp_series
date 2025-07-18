@@ -83,6 +83,7 @@ int main() {
             // exerciseTextbox();
             // exerciseRectangle();
             // exercisePerson();
+            smartPointer();
 
     playground();
     return 0;

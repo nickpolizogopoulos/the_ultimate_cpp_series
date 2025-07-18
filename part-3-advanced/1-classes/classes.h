@@ -8,5 +8,6 @@
 void exerciseTextbox();
 void exerciseRectangle();
 void exercisePerson();
+void smartPointer();
 
 #endif //CLASSES_H

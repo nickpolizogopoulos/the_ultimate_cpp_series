@@ -37,7 +37,7 @@ void RectangleLesson::draw() const {
     std::cout << "Dimensions: " << width << ", " << height << std::endl;
 }
 
-double RectangleLesson::getArea() {
+double RectangleLesson::getArea() const {
     return width * height;
 }
 

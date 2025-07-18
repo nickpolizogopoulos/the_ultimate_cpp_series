@@ -11,13 +11,13 @@ public:
     RectangleLesson(double width, double height);
     RectangleLesson(double width, double height, const std::string& color);
     ~RectangleLesson();
-    double getArea();
+
     void draw() const;
-
+    double getArea() const;
     double getWidth() const;
-    void setWidth(double width);
-
     double getHeight() const;
+
+    void setWidth(double width);
     void setHeight(double height);
 
     static int getObjectsCount();
