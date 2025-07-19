@@ -4,8 +4,6 @@
 
 #include "Person.h"
 
-#include <string>
-
 Person::Person(int age) : age{age} {}
 
 int Person::getAge() const {

@@ -18,6 +18,7 @@
 
 // Part 3: Advanced
     #include "part-3-advanced/1-classes/classes.h"
+    #include "part-3-advanced/2-operator-overloading/operator_overloading.h"
 
 
 int main() {
@@ -78,13 +79,16 @@ int main() {
             // readingFromFiles();
             // convertingNumberToStrings();
             // parsingTextIntoObjectsWithStreams();
+
     // Part 3: Advanced
         // 1. Classes
             // exerciseTextbox();
             // exerciseRectangle();
             // exercisePerson();
-            smartPointer();
+            // smartPointer();
+        // 2. Operator Overloading
+            exerciseLength();
 
-    playground();
+    // playground();
     return 0;
 }

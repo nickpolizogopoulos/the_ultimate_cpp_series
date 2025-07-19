@@ -11,20 +11,4 @@
 
 void playground() {
 
-    // std::cout << "Hello Playground!";
-
-    // RectangleLesson first{10, 20};
-    // RectangleLesson second{20, 30};
-    // std::cout << RectangleLesson::getObjectsCount() << std::endl;
-
-    // const RectangleLesson rectangleLesson;
-
-
-    // auto* rectangle = new RectangleLesson(10, 20);
-    // rectangle->draw();
-    // delete rectangle;
-    // rectangle = nullptr;
-
-    // auto rectangle = std::make_unique<RectangleLesson>(10, 20);
-    // rectangle->draw();
 }

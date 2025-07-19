@@ -88,13 +88,19 @@ add_executable(
                 part-3-advanced/1-classes/2-rectangle-class/Rectangle.cpp
                 part-3-advanced/1-classes/2-rectangle-class/Rectangle.h
 
-                part-3-advanced/1-classes/3-person-class/exercise-person.cpp
+                part-3-advanced/1-classes/3-person-class/exercise_person.cpp
                 part-3-advanced/1-classes/3-person-class/Person.cpp
                 part-3-advanced/1-classes/3-person-class/Person.h
 
-                part-3-advanced/1-classes/4-smartpointer-class/exercise-smartpointer.cpp
+                part-3-advanced/1-classes/4-smartpointer-class/exercise_smartpointer.cpp
                 part-3-advanced/1-classes/4-smartpointer-class/SmartPointer.cpp
                 part-3-advanced/1-classes/4-smartpointer-class/SmartPointer.h
 
                 part-3-advanced/1-classes/classes.h
+            # 2. Operator Overloading
+                part-3-advanced/2-operator-overloading/1-length-class/exercise_length.cpp
+                part-3-advanced/2-operator-overloading/1-length-class/Length.cpp
+                part-3-advanced/2-operator-overloading/1-length-class/Length.h
+
+                part-3-advanced/2-operator-overloading/operator_overloading.h
 )
