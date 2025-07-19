@@ -4,11 +4,32 @@
 
 #include <iostream>
 #include "playground.h"
-#include <memory>
 
-#include "../part-3-advanced/1-classes/2-rectangle-class/Rectangle.h"
-#include "rectangle-lesson/RectangleLesson.h"
+#include "../part-3-advanced/2-operator-overloading/1-length-class/Length.h"
 
 void playground() {
+
+    // int x = 10;
+    // int y = 20;
+    //
+    // auto result = x <=> y;
+    //
+    // if (result == std::strong_ordering::greater)
+    //     std::cout << "Greater" << std::endl;
+    //
+    // if (result == std::strong_ordering::less)
+    //     std::cout << "Less" << std::endl;
+    //
+    // if (result == std::strong_ordering::equal)
+    //     std::cout << "Equal" << std::endl;
+    //
+    //
+    // std::cout << "Hello Playground!" << std::endl;
+
+    Length first {10};
+    Length second {20};
+
+    if (first < second)
+        std::cout << "First is smaller";
 
 }
