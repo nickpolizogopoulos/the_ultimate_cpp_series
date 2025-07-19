@@ -102,5 +102,9 @@ add_executable(
                 part-3-advanced/2-operator-overloading/1-length-class/Length.cpp
                 part-3-advanced/2-operator-overloading/1-length-class/Length.h
 
+                part-3-advanced/2-operator-overloading/2-point-class/exercise_point.cpp
+                part-3-advanced/2-operator-overloading/2-point-class/Point.cpp
+                part-3-advanced/2-operator-overloading/2-point-class/Point.h
+
                 part-3-advanced/2-operator-overloading/operator_overloading.h
 )

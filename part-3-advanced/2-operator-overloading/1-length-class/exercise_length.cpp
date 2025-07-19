@@ -3,8 +3,6 @@
 //
 
 #include <iostream>
-#include <__ostream/basic_ostream.h>
-
 #include "Length.h"
 
 void exerciseLength() {

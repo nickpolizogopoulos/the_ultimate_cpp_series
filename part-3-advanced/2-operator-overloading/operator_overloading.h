@@ -6,5 +6,6 @@
 #define OPERATOR_OVERLOADING_H
 
 void exerciseLength();
+void exercisePoint();
 
 #endif //OPERATOR_OVERLOADING_H
