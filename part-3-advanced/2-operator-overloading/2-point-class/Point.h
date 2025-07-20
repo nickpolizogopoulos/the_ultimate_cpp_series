@@ -18,6 +18,10 @@ public:
     void setY(int y);
 
     bool operator==(const Point& other) const;
+
+    Point operator+(const Point& other) const;
+    Point operator+(int other) const;
+
 private:
     int x;
     int y;
