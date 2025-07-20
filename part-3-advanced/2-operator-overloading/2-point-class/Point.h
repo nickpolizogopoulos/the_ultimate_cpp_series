@@ -5,6 +5,8 @@
 #ifndef POINT_H
 #define POINT_H
 
+#include <ostream>
+
 class Point {
 public:
     Point(int x, int y);
@@ -17,5 +19,7 @@ private:
     int x;
     int y;
 };
+
+std::ostream& operator<<(std::ostream& stream, const Point& point);
 
 #endif //POINT_H

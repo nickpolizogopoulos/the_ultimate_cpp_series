@@ -15,7 +15,9 @@ void exercisePoint() {
     Point first = {10, 20};
     Point second = {10, 2};
 
-    std::cout << std::boolalpha << (first == second);
+    std::cout << (first == second ? "Points are equal." : "Points are not equal.") << std::endl;
+    std::cout << "First point: " << first << std::endl;
+    std::cout << "Second point: " << second;
 
     std::cout << std::endl << std::endl;
 }

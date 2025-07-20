@@ -27,7 +27,10 @@ private:
     int value;
 };
 
+// =============== Disabled to avoid duplicate symbol error. ========================
+// Only one Stream Insertion Operator Overload (operator<<) can be active at a time.
+
 // Overloading the Stream Insertion Operator
-std::ostream& operator<<(std::ostream& stream, const Length& length);
+// std::ostream& operator<<(std::ostream& stream, const Length& length);
 
 #endif //LENGTH_H

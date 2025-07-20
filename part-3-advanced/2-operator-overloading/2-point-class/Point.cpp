@@ -3,6 +3,7 @@
 //
 
 #include "Point.h"
+#include <ostream>
 
 Point::Point(int x, int y) : x(x), y(y) {}
 
@@ -24,4 +25,9 @@ void Point::setY(int y) {
 
 bool Point::operator==(const Point &other) const {
     return (x == other.x) && (y == other.y);
+}
+
+std::ostream& operator<<(std::ostream& stream, const Point& point) {
+    stream << "(" << point.getX() << ", " << point.getY() << ")";
+    return stream;
 }

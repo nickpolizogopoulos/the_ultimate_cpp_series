@@ -9,24 +9,8 @@
 
 void playground() {
 
-    // int x = 10;
-    // int y = 20;
-    //
-    // auto result = x <=> y;
-    //
-    // if (result == std::strong_ordering::greater)
-    //     std::cout << "Greater" << std::endl;
-    //
-    // if (result == std::strong_ordering::less)
-    //     std::cout << "Less" << std::endl;
-    //
-    // if (result == std::strong_ordering::equal)
-    //     std::cout << "Equal" << std::endl;
-    //
-    //
+    // Length length{10};
+    // std::cout << length;
+
     // std::cout << "Hello Playground!" << std::endl;
-
-    Length length{10};
-
-    std::cout << length;
 }
