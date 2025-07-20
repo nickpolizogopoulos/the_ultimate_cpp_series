@@ -49,13 +49,14 @@ std::strong_ordering Length::operator<=>(const Length& other) const {
 
 // Overloading the Stream Insertion Operator
 // std::ostream& operator<<(std::ostream& stream, const Length& length) {
-//     stream << length.getValue();
+//     stream << length.value;
 //     return stream;
 // }
 
 std::istream& operator>>(std::istream& stream, Length& length) {
     int value;
     stream >> value;
-    length.setValue(value);
+    // length.setValue(value);
+    length.value = value;
     return stream;
 }

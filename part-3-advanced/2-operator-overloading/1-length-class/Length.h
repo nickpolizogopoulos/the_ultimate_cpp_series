@@ -25,6 +25,8 @@ public:
     std::strong_ordering operator<=>(const Length& other) const;
 private:
     int value;
+    // friend std::ostream& operator<<(std::ostream& stream, const Length& length);
+    friend std::istream& operator>>(std::istream& stream, Length& length);
 };
 
 // =============== Disabled to avoid duplicate symbol error. ========================
