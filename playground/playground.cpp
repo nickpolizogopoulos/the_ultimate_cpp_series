@@ -26,10 +26,7 @@ void playground() {
     //
     // std::cout << "Hello Playground!" << std::endl;
 
-    Length first {10};
-    Length second {20};
+    Length length{10};
 
-    if (first < second)
-        std::cout << "First is smaller";
-
+    std::cout << length;
 }

@@ -6,12 +6,16 @@
 #define LENGTH_H
 
 #include <compare>
+#include <iostream>
 
 class Length {
 public:
     explicit Length(int value);
     bool operator==(const Length& other) const;
     bool operator==(int other) const;
+
+    int getValue() const;
+    void setValue(int value);
     // bool operator<(const Length& other) const;
     // bool operator<=(const Length& other) const;
     // bool operator>(const Length& other) const;
@@ -22,5 +26,8 @@ public:
 private:
     int value;
 };
+
+// Overloading the Stream Insertion Operator
+std::ostream& operator<<(std::ostream& stream, const Length& length);
 
 #endif //LENGTH_H

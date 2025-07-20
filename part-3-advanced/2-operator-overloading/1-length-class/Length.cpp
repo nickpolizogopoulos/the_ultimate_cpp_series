@@ -5,6 +5,7 @@
 #include "Length.h"
 
 #include <compare>
+#include <iostream>
 
 Length::Length(int value) : value{value} {}
 
@@ -14,6 +15,14 @@ bool Length::operator==(const Length& other) const {
 
 bool Length::operator==(int other) const {
     return value == other;
+}
+
+int Length::getValue() const {
+    return value;
+}
+
+void Length::setValue(int value) {
+    this->value = value;
 }
 
 // bool Length::operator<(const Length &other) const {
@@ -35,4 +44,10 @@ bool Length::operator==(int other) const {
 // The Spaceship Operator replaces all the Comparison Operators above.
 std::strong_ordering Length::operator<=>(const Length& other) const {
     return value <=> other.value;
+}
+
+// Overloading the Stream Insertion Operator
+std::ostream& operator<<(std::ostream& stream, const Length& length) {
+    stream << length.getValue();
+    return stream;
 }
