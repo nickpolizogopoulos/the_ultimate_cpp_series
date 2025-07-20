@@ -44,6 +44,14 @@ std::strong_ordering Length::operator<=>(const Length& other) const {
     return value <=> other.value;
 }
 
+Length Length::operator+(const Length &other) const {
+    return Length(value + other.value);
+}
+
+Length Length::operator+(int other) const {
+    return Length(value + other);
+}
+
 // =============== Disabled to avoid duplicate symbol error. ========================
 // Only one Stream Insertion Operator Overload (operator<<) can be active at a time.
 
