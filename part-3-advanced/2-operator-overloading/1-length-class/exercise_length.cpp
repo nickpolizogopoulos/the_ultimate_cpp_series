@@ -7,10 +7,16 @@
 
 void exerciseLength() {
 
-    const Length first{10};
-    const Length second{10};
+    Length first{10};
+    Length second{10};
 
     const int number = 10;
+
+    std::cout << "Set first length: ";
+    std::cin >> first;
+
+    std::cout << "Set second length: ";
+    std::cin >> second;
 
     std::cout
         << "The two objects are "

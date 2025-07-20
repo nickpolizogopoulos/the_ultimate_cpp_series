@@ -33,4 +33,8 @@ private:
 // Overloading the Stream Insertion Operator
 // std::ostream& operator<<(std::ostream& stream, const Length& length);
 
+// Overloading the Stream Extraction Operator
+std::istream& operator>>(std::istream& stream, Length& length);
+
+
 #endif //LENGTH_H

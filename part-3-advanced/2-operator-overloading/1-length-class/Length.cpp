@@ -3,8 +3,6 @@
 //
 
 #include "Length.h"
-
-#include <compare>
 #include <iostream>
 
 Length::Length(int value) : value{value} {}
@@ -54,3 +52,10 @@ std::strong_ordering Length::operator<=>(const Length& other) const {
 //     stream << length.getValue();
 //     return stream;
 // }
+
+std::istream& operator>>(std::istream& stream, Length& length) {
+    int value;
+    stream >> value;
+    length.setValue(value);
+    return stream;
+}
