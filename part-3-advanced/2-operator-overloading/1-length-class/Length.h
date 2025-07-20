@@ -34,6 +34,8 @@ public:
     // Length operator/(const Length& other) const;
     // Length operator/(int other) const;
 
+    Length& operator+=(const Length& other);
+
     int getValue() const;
     void setValue(int value);
 

@@ -52,6 +52,11 @@ Length Length::operator+(int other) const {
     return Length(value + other);
 }
 
+Length& Length::operator+=(const Length& other) {
+    value += other.value;
+    return *this;
+}
+
 // =============== Disabled to avoid duplicate symbol error. ========================
 // Only one Stream Insertion Operator Overload (operator<<) can be active at a time.
 
