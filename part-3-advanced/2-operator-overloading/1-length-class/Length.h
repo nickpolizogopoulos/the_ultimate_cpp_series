@@ -39,6 +39,8 @@ public:
     Length& operator+=(const Length& other);
     Length& operator=(const Length& other);
 
+    Length& operator++();
+    Length operator++(int);
 
     int getValue() const;
     void setValue(int value);
@@ -48,9 +50,6 @@ private:
     friend std::ostream& operator<<(std::ostream& stream, const Length& length);
     friend std::istream& operator>>(std::istream& stream, Length& length);
 };
-
-// =============== Disabled to avoid duplicate symbol error. ========================
-// Only one Stream Insertion Operator Overload (operator<<) can be active at a time.
 
 // Overloading the Stream Insertion Operator
 std::ostream& operator<<(std::ostream& stream, const Length& length);
