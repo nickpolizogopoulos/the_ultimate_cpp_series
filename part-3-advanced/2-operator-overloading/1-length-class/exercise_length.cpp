@@ -7,9 +7,11 @@
 
 void exerciseLength() {
 
-    // Length first{10};
-    // Length second{10};
-    //
+    Length first{10};
+    // Length second{20};
+
+    Length second = first;
+
     // const int number = 10;
     //
     // std::cout << "Set first length: ";
@@ -31,5 +33,9 @@ void exerciseLength() {
     // std::cout << third << std::endl;
     //
     // std::cout << first + 20 << std::endl;
+
+    first = second;
+
+    std::cout << first << std::endl;
 
 }

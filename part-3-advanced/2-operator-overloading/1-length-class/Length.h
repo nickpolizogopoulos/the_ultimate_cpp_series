@@ -11,6 +11,8 @@
 class Length {
 public:
     explicit Length(int value);
+    Length() = default;
+
     bool operator==(const Length& other) const;
     bool operator==(int other) const;
 
@@ -35,6 +37,8 @@ public:
     // Length operator/(int other) const;
 
     Length& operator+=(const Length& other);
+    Length& operator=(const Length& other);
+
 
     int getValue() const;
     void setValue(int value);
@@ -49,10 +53,10 @@ private:
 // Only one Stream Insertion Operator Overload (operator<<) can be active at a time.
 
 // Overloading the Stream Insertion Operator
-// std::ostream& operator<<(std::ostream& stream, const Length& length);
+std::ostream& operator<<(std::ostream& stream, const Length& length);
 
 // Overloading the Stream Extraction Operator
-// std::istream& operator>>(std::istream& stream, Length& length);
+std::istream& operator>>(std::istream& stream, Length& length);
 
 
 
