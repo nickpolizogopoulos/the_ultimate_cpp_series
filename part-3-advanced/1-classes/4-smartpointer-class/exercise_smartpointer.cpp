@@ -11,9 +11,16 @@
 
 // It should also have a Destructor to release the memory.
 
+#include <iostream>
 #include "SmartPointer.h"
 
 void smartPointer() {
 
     SmartPointer ptr{new int};
+
+    *ptr = 100;
+    std::cout << *ptr << std::endl;
+
+    *ptr = 200;
+    std::cout << *ptr;
 }

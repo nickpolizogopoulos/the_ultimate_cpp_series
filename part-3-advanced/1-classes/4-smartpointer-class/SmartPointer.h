@@ -9,6 +9,7 @@ class SmartPointer {
 public:
     explicit SmartPointer(int* prt);
     ~SmartPointer();
+    int& operator*();
 private:
     int* ptr;
 };

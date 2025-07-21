@@ -9,6 +9,10 @@ SmartPointer::SmartPointer(int *prt) : ptr{prt} {}
 SmartPointer::~SmartPointer() {
     delete ptr;
     ptr = nullptr;
-};
+}
+
+int& SmartPointer::operator*() {
+    return *ptr;
+}
 
 
