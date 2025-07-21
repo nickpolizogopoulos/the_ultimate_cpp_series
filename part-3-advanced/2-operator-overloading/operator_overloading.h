@@ -7,5 +7,6 @@
 
 void exerciseLength();
 void exercisePoint();
+void exerciseArray();
 
 #endif //OPERATOR_OVERLOADING_H

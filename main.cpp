@@ -87,8 +87,9 @@ int main() {
             // exercisePerson();
             // smartPointer();
         // 2. Operator Overloading
-            exerciseLength();
+            // exerciseLength();
             // exercisePoint();
+            exerciseArray();
 
     // playground();
     return 0;

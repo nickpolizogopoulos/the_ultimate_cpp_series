@@ -106,5 +106,9 @@ add_executable(
                 part-3-advanced/2-operator-overloading/2-point-class/Point.cpp
                 part-3-advanced/2-operator-overloading/2-point-class/Point.h
 
+                part-3-advanced/2-operator-overloading/3-array-class/exercise_array.cpp
+                part-3-advanced/2-operator-overloading/3-array-class/Array.cpp
+                part-3-advanced/2-operator-overloading/3-array-class/Array.h
+
                 part-3-advanced/2-operator-overloading/operator_overloading.h
 )
