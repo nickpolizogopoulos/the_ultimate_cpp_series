@@ -42,6 +42,8 @@ public:
     Length& operator++();
     Length operator++(int);
 
+    operator int() const;
+
     int getValue() const;
     void setValue(int value);
 

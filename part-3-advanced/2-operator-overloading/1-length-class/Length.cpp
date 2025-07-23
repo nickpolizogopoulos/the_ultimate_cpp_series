@@ -89,3 +89,7 @@ std::istream& operator>>(std::istream& stream, Length& length) {
     length.value = value;
     return stream;
 }
+
+Length::operator int() const {
+    return value;
+}

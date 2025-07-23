@@ -85,9 +85,9 @@ int main() {
             // exerciseTextbox();
             // exerciseRectangle();
             // exercisePerson();
-            smartPointer();
+            // smartPointer();
         // 2. Operator Overloading
-            // exerciseLength();
+            exerciseLength();
             // exercisePoint();
             // exerciseArray();
 
