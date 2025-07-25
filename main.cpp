@@ -19,7 +19,7 @@
 // Part 3: Advanced
     #include "part-3-advanced/1-classes/classes.h"
     #include "part-3-advanced/2-operator-overloading/operator_overloading.h"
-
+    #include "part-3-advanced/3-inheritance-and-polymorphism/inheritance-and-polymorphism.h"
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -87,10 +87,12 @@ int main() {
             // exercisePerson();
             // smartPointer();
         // 2. Operator Overloading
-            exerciseLength();
+            // exerciseLength();
             // exercisePoint();
             // exerciseArray();
+        // 2. Inheritance & Polymorphism
+            // exerciseWidget();
 
-    // playground();
+    playground();
     return 0;
 }

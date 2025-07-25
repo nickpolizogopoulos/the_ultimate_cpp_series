@@ -4,13 +4,11 @@
 
 #include <iostream>
 #include "playground.h"
-
-#include "../part-3-advanced/2-operator-overloading/1-length-class/Length.h"
+#include "../part-3-advanced/1-classes/1-textbox-class/Textbox.h"
 
 void playground() {
 
-    // Length length{10};
-    // std::cout << length;
-
-    // std::cout << "Hello Playground!" << std::endl;
+    Textbox box;
+    box.disable();
+    std::cout << "The box is " << (box.isEnabled() ? "enabled." : "disabled.");
 }

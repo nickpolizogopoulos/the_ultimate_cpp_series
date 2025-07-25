@@ -111,4 +111,11 @@ add_executable(
                 part-3-advanced/2-operator-overloading/3-array-class/Array.h
 
                 part-3-advanced/2-operator-overloading/operator_overloading.h
+            # 2. Inheritance & Polymorphism
+                part-3-advanced/3-inheritance-and-polymorphism/1-widget-class/exercise_widget.cpp
+                part-3-advanced/3-inheritance-and-polymorphism/1-widget-class/Widget.cpp
+                part-3-advanced/3-inheritance-and-polymorphism/1-widget-class/Widget.h
+
+                part-3-advanced/3-inheritance-and-polymorphism/inheritance-and-polymorphism.h
+
 )
