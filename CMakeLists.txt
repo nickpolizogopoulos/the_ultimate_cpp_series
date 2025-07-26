@@ -116,6 +116,11 @@ add_executable(
                 part-3-advanced/3-inheritance-and-polymorphism/1-widget-class/Widget.cpp
                 part-3-advanced/3-inheritance-and-polymorphism/1-widget-class/Widget.h
 
-                part-3-advanced/3-inheritance-and-polymorphism/inheritance-and-polymorphism.h
+                part-3-advanced/3-inheritance-and-polymorphism/2-shape-class/exercise_shape.cpp
+                part-3-advanced/3-inheritance-and-polymorphism/2-shape-class/Shape.cpp
+                part-3-advanced/3-inheritance-and-polymorphism/2-shape-class/Shape.h
+                part-3-advanced/3-inheritance-and-polymorphism/2-shape-class/Rectangle.cpp
+                part-3-advanced/3-inheritance-and-polymorphism/2-shape-class/Rectangle.h
 
+                part-3-advanced/3-inheritance-and-polymorphism/inheritance-and-polymorphism.h
 )
