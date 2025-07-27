@@ -6,5 +6,6 @@
 #define INHERITANCE_AND_POLYMORPHISM_H
 
 void exerciseWidget();
+void exerciseShape();
 
 #endif //INHERITANCE_AND_POLYMORPHISM_H

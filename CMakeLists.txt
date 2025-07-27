@@ -121,6 +121,8 @@ add_executable(
                 part-3-advanced/3-inheritance-and-polymorphism/2-shape-class/Shape.h
                 part-3-advanced/3-inheritance-and-polymorphism/2-shape-class/Rectangle.cpp
                 part-3-advanced/3-inheritance-and-polymorphism/2-shape-class/Rectangle.h
+                part-3-advanced/3-inheritance-and-polymorphism/2-shape-class/Triangle.cpp
+                part-3-advanced/3-inheritance-and-polymorphism/2-shape-class/Triangle.h
 
                 part-3-advanced/3-inheritance-and-polymorphism/inheritance-and-polymorphism.h
 )

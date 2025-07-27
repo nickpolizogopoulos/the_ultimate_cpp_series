@@ -3,6 +3,11 @@
 //
 
 #include "Widget.h"
+#include <iostream>
+
+Widget::Widget(bool enabled) : enabled{enabled} {
+    std::cout << "Widget constructed." << std::endl;
+}
 
 void Widget::enable() {
     enabled = true;

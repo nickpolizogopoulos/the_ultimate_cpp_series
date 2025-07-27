@@ -7,10 +7,10 @@
 #include <iostream>
 #include "../../3-inheritance-and-polymorphism/1-widget-class/Widget.h"
 
-class Textbox : public Widget {
+class TextBox : public Widget {
 public:
-    Textbox() = default;
-    explicit Textbox(const std::string& value);
+    using Widget::Widget;
+    explicit TextBox(bool enabled, const std::string& value);
     std::string getValue();
     void setValue(const std::string& value);
 private:
