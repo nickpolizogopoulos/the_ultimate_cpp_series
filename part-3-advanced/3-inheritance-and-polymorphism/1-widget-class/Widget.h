@@ -7,7 +7,9 @@
 
 class Widget {
 public:
-    Widget(bool enabled);
+    // part of demo
+    // Widget(bool enabled);
+    // ~Widget();
     void enable();
     void disable();
     bool isEnabled() const;

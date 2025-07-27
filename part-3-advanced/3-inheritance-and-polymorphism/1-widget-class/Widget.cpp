@@ -5,9 +5,15 @@
 #include "Widget.h"
 #include <iostream>
 
-Widget::Widget(bool enabled) : enabled{enabled} {
-    std::cout << "Widget constructed." << std::endl;
-}
+// part of demo
+// Widget::Widget(bool enabled) : enabled{enabled} {
+//     std::cout << "Widget constructed." << std::endl;
+// }
+
+// part of demo
+// Widget::~Widget() {
+//     std::cout << "Widget destructed.";
+// }
 
 void Widget::enable() {
     enabled = true;

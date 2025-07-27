@@ -4,7 +4,13 @@
 
 #include "TextBox.h"
 
-TextBox::TextBox(bool enabled, const std::string &value) : Widget(enabled), value{value} {}
+// part of demo
+// TextBox::TextBox(bool enabled, const std::string &value) : value{value} {}
+
+// part of demo
+// TextBox::~TextBox() {
+//     std::cout << "TextBox destructed." << std::endl;
+// }
 
 std::string TextBox::getValue() {
     return value;

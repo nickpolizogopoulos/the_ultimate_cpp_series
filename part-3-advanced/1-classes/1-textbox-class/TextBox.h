@@ -9,8 +9,10 @@
 
 class TextBox : public Widget {
 public:
-    using Widget::Widget;
-    explicit TextBox(bool enabled, const std::string& value);
+    // part of demo
+    // using Widget::Widget;
+    // explicit TextBox(bool enabled, const std::string& value);
+    // ~TextBox();
     std::string getValue();
     void setValue(const std::string& value);
 private:
