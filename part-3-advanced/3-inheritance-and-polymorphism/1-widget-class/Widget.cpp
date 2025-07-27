@@ -15,6 +15,10 @@
 //     std::cout << "Widget destructed.";
 // }
 
+void Widget::draw() const {
+    std::cout << "Drawing a Widget." << std::endl;
+}
+
 void Widget::enable() {
     enabled = true;
 }

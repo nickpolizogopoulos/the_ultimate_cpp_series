@@ -9,6 +9,7 @@
 
 class Shape {
 public:
+    virtual void draw() const;
     std::string getBackground();
     void setBackground(std::string background);
 private:

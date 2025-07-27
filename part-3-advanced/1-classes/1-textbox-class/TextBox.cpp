@@ -12,6 +12,10 @@
 //     std::cout << "TextBox destructed." << std::endl;
 // }
 
+void TextBox::draw() const {
+    std::cout << "Drawing a TextBox" << std::endl;
+}
+
 std::string TextBox::getValue() {
     return value;
 }

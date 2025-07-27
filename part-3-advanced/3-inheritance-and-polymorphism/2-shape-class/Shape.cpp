@@ -2,7 +2,12 @@
 // Created by Nick Polizogopoulos on 26/7/25.
 //
 
+#include <iostream>
 #include "Shape.h"
+
+void Shape::draw() const {
+    std::cout << "Drawing a Shape" << std::endl;
+}
 
 std::string Shape::getBackground() {
     return background;
