@@ -13,7 +13,7 @@ public:
     // using Widget::Widget;
     // explicit TextBox(bool enabled, const std::string& value);
     ~TextBox();
-    void draw() const override;
+    void draw() const override final;
     std::string getValue();
     void setValue(const std::string& value);
 private:

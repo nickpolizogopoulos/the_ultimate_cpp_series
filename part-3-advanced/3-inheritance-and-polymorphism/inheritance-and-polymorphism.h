@@ -7,5 +7,6 @@
 
 void exerciseWidget();
 void exerciseShape();
+void exerciseFileIO();
 
 #endif //INHERITANCE_AND_POLYMORPHISM_H

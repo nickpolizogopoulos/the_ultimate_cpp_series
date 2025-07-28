@@ -127,5 +127,13 @@ add_executable(
                 part-3-advanced/3-inheritance-and-polymorphism/3-checkbox-class/CheckBox.cpp
                 part-3-advanced/3-inheritance-and-polymorphism/3-checkbox-class/CheckBox.h
 
+                part-3-advanced/3-inheritance-and-polymorphism/4-fileio-class/exercise_fileio.cpp
+                part-3-advanced/3-inheritance-and-polymorphism/4-fileio-class/FileIO.cpp
+                part-3-advanced/3-inheritance-and-polymorphism/4-fileio-class/FileIO.h
+                part-3-advanced/3-inheritance-and-polymorphism/4-fileio-class/FileReader.cpp
+                part-3-advanced/3-inheritance-and-polymorphism/4-fileio-class/FileReader.h
+                part-3-advanced/3-inheritance-and-polymorphism/4-fileio-class/FileWriter.cpp
+                part-3-advanced/3-inheritance-and-polymorphism/4-fileio-class/FileWriter.h
+
                 part-3-advanced/3-inheritance-and-polymorphism/inheritance-and-polymorphism.h
 )
