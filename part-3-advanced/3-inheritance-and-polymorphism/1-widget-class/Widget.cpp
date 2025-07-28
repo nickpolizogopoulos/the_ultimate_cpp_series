@@ -15,9 +15,10 @@
 //     std::cout << "Destructing a Widget." << std::endl;
 // }
 
-void Widget::draw() const {
-    std::cout << "Drawing a Widget." << std::endl;
-}
+// This method is now a Pure Virtual Method
+// void Widget::draw() const {
+//     std::cout << "Drawing a Widget." << std::endl;
+// }
 
 void Widget::enable() {
     enabled = true;

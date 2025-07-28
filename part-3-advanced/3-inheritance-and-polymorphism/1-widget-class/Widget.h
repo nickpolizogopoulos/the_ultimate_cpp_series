@@ -10,7 +10,7 @@ public:
     // part of demo
     // Widget(bool enabled);
     virtual ~Widget() = default;
-    virtual void draw() const;
+    virtual void draw() const = 0;
     void enable();
     void disable();
     bool isEnabled() const;

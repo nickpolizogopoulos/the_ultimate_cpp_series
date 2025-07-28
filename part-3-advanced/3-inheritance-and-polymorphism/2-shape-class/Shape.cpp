@@ -5,9 +5,10 @@
 #include <iostream>
 #include "Shape.h"
 
-void Shape::draw() const {
-    std::cout << "Drawing a Shape" << std::endl;
-}
+// This class is now Abstract.
+// void Shape::draw() const {
+//     std::cout << "Drawing a Shape" << std::endl;
+// }
 
 std::string Shape::getBackground() {
     return background;

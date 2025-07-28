@@ -8,15 +8,6 @@
 
 void playground() {
 
-    // Textbox box;
-    // box.disable();
-    // std::cout << "The box is " << (box.isEnabled() ? "enabled." : "disabled.");
-
-    Widget widget;
-
-
-
-
     std::cout
         << std::endl << std::endl
         << "Hello Playground!"
