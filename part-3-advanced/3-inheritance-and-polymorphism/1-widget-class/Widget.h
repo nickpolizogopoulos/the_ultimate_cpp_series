@@ -9,7 +9,7 @@ class Widget {
 public:
     // part of demo
     // Widget(bool enabled);
-    // ~Widget();
+    virtual ~Widget() = default;
     virtual void draw() const;
     void enable();
     void disable();

@@ -8,9 +8,9 @@
 // TextBox::TextBox(bool enabled, const std::string &value) : value{value} {}
 
 // part of demo
-// TextBox::~TextBox() {
-//     std::cout << "TextBox destructed." << std::endl;
-// }
+TextBox::~TextBox() {
+    std::cout << "Destructing a TextBox." << std::endl;
+}
 
 void TextBox::draw() const {
     std::cout << "Drawing a TextBox" << std::endl;

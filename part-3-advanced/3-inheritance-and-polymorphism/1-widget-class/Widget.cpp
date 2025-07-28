@@ -10,9 +10,9 @@
 //     std::cout << "Widget constructed." << std::endl;
 // }
 
-// part of demo
+// part of demo (it's now default).
 // Widget::~Widget() {
-//     std::cout << "Widget destructed.";
+//     std::cout << "Destructing a Widget." << std::endl;
 // }
 
 void Widget::draw() const {

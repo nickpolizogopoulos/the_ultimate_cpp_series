@@ -9,6 +9,7 @@
 
 class CheckBox : public Widget {
 public:
+    ~CheckBox();
     void draw() const override;
 };
 
