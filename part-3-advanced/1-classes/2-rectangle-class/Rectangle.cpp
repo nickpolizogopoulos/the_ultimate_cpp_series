@@ -19,8 +19,8 @@ double Rectangle::getWidth() const {
 }
 
 double Rectangle::setWidth(double width) {
-    if (width < 0)
-        throw std::invalid_argument("Width cannot be negative");
+    if (width <= 0)
+        throw std::invalid_argument("Width cannot be negative or zero!");
     this->width = width;
 }
 

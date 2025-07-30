@@ -20,6 +20,7 @@
     #include "part-3-advanced/1-classes/classes.h"
     #include "part-3-advanced/2-operator-overloading/operator_overloading.h"
     #include "part-3-advanced/3-inheritance-and-polymorphism/inheritance-and-polymorphism.h"
+    #include "part-3-advanced/4-exceptions/exceptions.h"
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -93,7 +94,9 @@ int main() {
         // 2. Inheritance & Polymorphism
             // exerciseWidget();
             // exerciseShape();
-            exerciseFileIO();
+            // exerciseFileIO();
+        // 3. Exceptions
+            rectangleException();
 
     // playground();
     return 0;

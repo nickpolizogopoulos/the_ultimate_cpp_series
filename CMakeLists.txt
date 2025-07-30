@@ -21,6 +21,7 @@ add_executable(
                 part-1-fundamentals/1-the-basics/5_fahrenheit_to_celsius.cpp
                 part-1-fundamentals/1-the-basics/6_area_of_a_circle.cpp
                 part-1-fundamentals/1-the-basics/basics.h
+
             # 2. Fundamental Data Types
                 part-1-fundamentals/2-fundamental-data-types/1_roll_the_dice.cpp
                 part-1-fundamentals/2-fundamental-data-types/2_formatted_output_table.cpp
@@ -28,12 +29,14 @@ add_executable(
                 part-1-fundamentals/2-fundamental-data-types/4_storing_and_retrieving_data_from_an_array.cpp
                 part-1-fundamentals/2-fundamental-data-types/5_type_conversion.cpp
                 part-1-fundamentals/2-fundamental-data-types/fundamental_data_types.h
+
             # 3. Decision Making
                 part-1-fundamentals/3-decision-making/1_job_eligibility.cpp
                 part-1-fundamentals/3-decision-making/2_commission_calculation.cpp
                 part-1-fundamentals/3-decision-making/3_larger_number.cpp
                 part-1-fundamentals/3-decision-making/4_basic_calculator_using_switch.cpp
                 part-1-fundamentals/3-decision-making/decision_making.h
+
             # 4. Loops
                 part-1-fundamentals/4-loops/1_factorial-calculator.cpp
                 part-1-fundamentals/4-loops/2_average-temperature.cpp
@@ -41,6 +44,7 @@ add_executable(
                 part-1-fundamentals/4-loops/4_secret_number_simplified.cpp
                 part-1-fundamentals/4-loops/5_star_pattern.cpp
                 part-1-fundamentals/4-loops/loops.h
+
             # 5. Functions
                 part-1-fundamentals/5-functions/1_max_of_two_numbers.cpp
                 part-1-fundamentals/5-functions/functions.h
@@ -54,22 +58,26 @@ add_executable(
                 part-2-intermediate/1-arrays/5_bubble_sort_algorithm.cpp
                 part-2-intermediate/1-arrays/6_multi_dimensional_array.cpp
                 part-2-intermediate/1-arrays/arrays.h
+
             # 2. Pointers
                 part-2-intermediate/2-pointers/1_modify_with_pointers.cpp
                 part-2-intermediate/2-pointers/2_swap_variable_values_using_pointers.cpp
                 part-2-intermediate/2-pointers/3_reverse_iteration_using_pointer.cpp
                 part-2-intermediate/2-pointers/pointers.h
+
             # 3. Strings
                 part-2-intermediate/3-strings/1_searching_characters_in_strings.cpp
                 part-2-intermediate/3-strings/2_extracting_substrings.cpp
                 part-2-intermediate/3-strings/3_customer_number_validation.cpp
                 part-2-intermediate/3-strings/strings.h
+
             # 4. Structures and Enumerations
                 part-2-intermediate/4-structures-and-enumerations/1_represent_customers_via_structures.cpp
                 part-2-intermediate/4-structures-and-enumerations/2_vector_iteration_with_user_defined_objects.cpp
                 part-2-intermediate/4-structures-and-enumerations/3_enhanced_customer_object_with_nested_struct.cpp
                 part-2-intermediate/4-structures-and-enumerations/4_operator_overloading_to_compare_and_stream_points.cpp
                 part-2-intermediate/4-structures-and-enumerations/structures_and_enumerations.h
+
             # 5. Streams and Files
                 part-2-intermediate/5-streams-and-files/1_handling_input_stream_errors_with_reusable_logic.cpp
                 part-2-intermediate/5-streams-and-files/2_writing_to_files.cpp
@@ -97,6 +105,7 @@ add_executable(
                 part-3-advanced/1-classes/4-smartpointer-class/SmartPointer.h
 
                 part-3-advanced/1-classes/classes.h
+
             # 2. Operator Overloading
                 part-3-advanced/2-operator-overloading/1-length-class/exercise_length.cpp
                 part-3-advanced/2-operator-overloading/1-length-class/Length.cpp
@@ -111,6 +120,7 @@ add_executable(
                 part-3-advanced/2-operator-overloading/3-array-class/Array.h
 
                 part-3-advanced/2-operator-overloading/operator_overloading.h
+
             # 2. Inheritance & Polymorphism
                 part-3-advanced/3-inheritance-and-polymorphism/1-widget-class/exercise_widget.cpp
                 part-3-advanced/3-inheritance-and-polymorphism/1-widget-class/Widget.cpp
@@ -136,4 +146,8 @@ add_executable(
                 part-3-advanced/3-inheritance-and-polymorphism/4-fileio-class/FileWriter.h
 
                 part-3-advanced/3-inheritance-and-polymorphism/inheritance-and-polymorphism.h
+
+        # 3. Exceptions
+                part-3-advanced/4-exceptions/1-rectangle-exception.cpp
+                part-3-advanced/4-exceptions/exceptions.h
 )
