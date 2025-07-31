@@ -21,6 +21,7 @@
     #include "part-3-advanced/2-operator-overloading/operator_overloading.h"
     #include "part-3-advanced/3-inheritance-and-polymorphism/inheritance-and-polymorphism.h"
     #include "part-3-advanced/4-exceptions/exceptions.h"
+    #include "part-3-advanced/5-templates/templates.h"
 
 int main() {
     std::cout << "~~~~~ This is my C++ course repository ~~~~~" << std::endl << std::endl;
@@ -33,23 +34,27 @@ int main() {
             // calculateUserAge();
             // fahrenheitToCelsius();
             // areaOfACircle();
+
         // 2. Fundamental Data Types
             // rollTheDice();
             // formattedOutputTable();
             // addressInputUsingGetline();
             // storingAndRetrievingDataFromAnArray();
             // typeConversion();
+
         // 3. Decision-Making
             // jobEligibility ();
             // commissionCalculation();
             // largerNumber();
             // basicCalculatorUsingSwitch();
+
         // 4. Loops
             // factorialCalculator();
             // averageTemperature();
             // secretNumber();
             // secretNumberSimplified();
             // starPattern();
+
         // 5. Functions
             // maxOfTwoNumbers();
 
@@ -61,19 +66,23 @@ int main() {
             // linearSearchAlgorithm();
             // bubbleSortAlgorithm();
             // multiDimensionalArray();
+
         // 2. Pointers
             // modifyWithPointers();
             // swapVariableValuesUsingPointers();
             // reverseIterationUsingPointer();
+
         // 3. Strings
             // searchingCharactersInStrings();
             // extractSubstrings();
             // customerNumberValidation();
+
         // 4. Structures and Enumerations
             // representCustomersViaStructures();
             // vectorIterationWithUserDefinedObjects();
             // enhancedCustomerObjectWithNestedStruct();
             // operatorOverloadingToCompareAndStreamPoints();
+
         // 5. Streams and Files
             // handlingInputStreamErrorsWithReusableLogic();
             // writingToFiles();
@@ -87,18 +96,24 @@ int main() {
             // exerciseRectangle();
             // exercisePerson();
             // smartPointer();
+
         // 2. Operator Overloading
             // exerciseLength();
             // exercisePoint();
             // exerciseArray();
+
         // 2. Inheritance & Polymorphism
             // exerciseWidget();
             // exerciseShape();
             // exerciseFileIO();
+
         // 3. Exceptions
             // rectangleException();
             // catchingExceptions();
-            customExceptions();
+            // customExceptions();
+
+        // 4. Templates
+            functionTemplate();
 
     // playground();
     return 0;

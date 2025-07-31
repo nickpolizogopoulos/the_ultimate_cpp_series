@@ -147,7 +147,7 @@ add_executable(
 
                 part-3-advanced/3-inheritance-and-polymorphism/inheritance-and-polymorphism.h
 
-        # 3. Exceptions
+            # 3. Exceptions
                 part-3-advanced/4-exceptions/1-rectangle-exception.cpp
                 part-3-advanced/4-exceptions/2-catching-exceptions.cpp
                 part-3-advanced/4-exceptions/3-custom-exceptions.cpp
@@ -156,4 +156,8 @@ add_executable(
                 part-3-advanced/4-exceptions/AccountLocked.h
 
                 part-3-advanced/4-exceptions/exceptions.h
+
+            # 4. Templates
+                part-3-advanced/5-templates/1-function-template.cpp
+                part-3-advanced/5-templates/templates.h
 )

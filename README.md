@@ -16,7 +16,7 @@ Each part includes its own exercises and projects designed to match the difficul
 ### Part 1 - Fundamentals
 - Basic C++ syntax and concepts
 - Fundamental Data Types
-- Decision Making
+- Decision-Making
 - Loops
 - Functions
 
@@ -29,3 +29,7 @@ Each part includes its own exercises and projects designed to match the difficul
 
 ### Part 3 - Advanced
 - Classes
+- Operator Overloading
+- Inheritance and Polymorphism
+- Exceptions
+- Templates
