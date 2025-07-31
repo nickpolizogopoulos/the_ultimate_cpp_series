@@ -8,17 +8,18 @@
 
 
 void createRectangle() {
-    Rectangle rectangle{};
-    rectangle.setWidth(0);
 
-    // first way: catch exception locally
-    // try {
-    //     Rectangle rectangle{};
-    //     rectangle.setWidth(0);
-    // }
-    //     catch(std::exception& e) {
-    //     std::cout << e.what() << std::endl;
-    // }
+    try {
+        // code to open a file.
+        std::cout << "Opening the file." << std::endl;
+        Rectangle rectangle{};
+        rectangle.setWidth(0);
+    }
+    catch(const std::invalid_argument& e) {
+        // code to close the file
+        std::cout << "Closing the file." << std::endl;
+        throw;
+    }
 }
 
 void doWork() {
@@ -27,8 +28,6 @@ void doWork() {
 
 void catchingExceptions() {
 
-    // second way: catch the exception in the main function
-    // in case any exception happens anywhere in code.
     try {
         doWork();
     }
