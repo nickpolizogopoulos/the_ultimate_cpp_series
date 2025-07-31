@@ -6,5 +6,6 @@
 #define EXCEPTIONS_H
 
 void rectangleException();
+void catchingExceptions();
 
 #endif //EXCEPTIONS_H

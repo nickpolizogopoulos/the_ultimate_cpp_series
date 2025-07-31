@@ -96,7 +96,8 @@ int main() {
             // exerciseShape();
             // exerciseFileIO();
         // 3. Exceptions
-            rectangleException();
+            // rectangleException();
+            catchingExceptions();
 
     // playground();
     return 0;

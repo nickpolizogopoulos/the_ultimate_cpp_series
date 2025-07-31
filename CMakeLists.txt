@@ -149,5 +149,6 @@ add_executable(
 
         # 3. Exceptions
                 part-3-advanced/4-exceptions/1-rectangle-exception.cpp
+                part-3-advanced/4-exceptions/2-catching-exceptions.cpp
                 part-3-advanced/4-exceptions/exceptions.h
 )
