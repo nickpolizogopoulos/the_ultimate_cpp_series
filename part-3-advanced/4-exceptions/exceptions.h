@@ -7,5 +7,6 @@
 
 void rectangleException();
 void catchingExceptions();
+void customExceptions();
 
 #endif //EXCEPTIONS_H

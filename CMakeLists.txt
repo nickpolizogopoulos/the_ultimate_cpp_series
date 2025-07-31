@@ -150,5 +150,10 @@ add_executable(
         # 3. Exceptions
                 part-3-advanced/4-exceptions/1-rectangle-exception.cpp
                 part-3-advanced/4-exceptions/2-catching-exceptions.cpp
+                part-3-advanced/4-exceptions/3-custom-exceptions.cpp
+
+                part-3-advanced/4-exceptions/AccountLocked.cpp
+                part-3-advanced/4-exceptions/AccountLocked.h
+
                 part-3-advanced/4-exceptions/exceptions.h
 )
