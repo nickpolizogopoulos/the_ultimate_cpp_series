@@ -100,7 +100,7 @@ int main() {
         // 2. Operator Overloading
             // exerciseLength();
             // exercisePoint();
-            // exerciseArray();
+            exerciseArray();
 
         // 2. Inheritance & Polymorphism
             // exerciseWidget();
@@ -114,7 +114,7 @@ int main() {
 
         // 4. Templates
             // functionTemplate();
-            templateWithMultipleParameters();
+            // templateWithMultipleParameters();
 
     // playground();
     return 0;

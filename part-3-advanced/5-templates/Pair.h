@@ -10,6 +10,7 @@
 template<typename K, typename V>
 class Pair {
 public:
+    Pair() = default;
     Pair(K key, V value);
 
     K getKey() const;
