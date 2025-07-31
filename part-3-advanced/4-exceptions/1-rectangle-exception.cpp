@@ -10,7 +10,7 @@ void rectangleException() {
     std::cout << "Rectangle Exception" << std::endl << "=======================================" << std::endl;
 
     try {
-        std::cout << "Set a width for the rectangle: " << std::endl;
+        std::cout << "Set a width for the rectangle: ";
         int width;
         std::cin >> width;
 
@@ -19,7 +19,14 @@ void rectangleException() {
 
         std::cout << "Rectantle's width: " << rectangle.getWidth() << std::endl;
     }
-    catch (const std::invalid_argument& exception) {
+
+    // handling out_of_range.
+    catch (const std::out_of_range& exception) {
+        std::cout << exception.what() << std::endl;
+    }
+
+    // handling every other logic_error.
+    catch (const std::logic_error& exception) {
         std::cout << exception.what() << std::endl;
     }
 
