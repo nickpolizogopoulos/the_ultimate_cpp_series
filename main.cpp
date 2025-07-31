@@ -113,7 +113,8 @@ int main() {
             // customExceptions();
 
         // 4. Templates
-            functionTemplate();
+            // functionTemplate();
+            templateWithMultipleParameters();
 
     // playground();
     return 0;

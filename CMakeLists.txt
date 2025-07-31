@@ -159,5 +159,6 @@ add_executable(
 
             # 4. Templates
                 part-3-advanced/5-templates/1-function-template.cpp
+                part-3-advanced/5-templates/2-template-with-multiple-parameters.cpp
                 part-3-advanced/5-templates/templates.h
 )

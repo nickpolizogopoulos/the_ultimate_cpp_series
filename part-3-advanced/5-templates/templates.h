@@ -6,5 +6,6 @@
 #define TEMPLATES_H
 
 void functionTemplate();
+void templateWithMultipleParameters();
 
 #endif //TEMPLATES_H
